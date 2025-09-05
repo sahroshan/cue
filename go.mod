@@ -1,4 +1,4 @@
-module cuelang.org/go
+module github.com/sahroshan/cue
 
 go 1.23.0
 

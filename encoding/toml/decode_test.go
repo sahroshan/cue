@@ -26,15 +26,15 @@ import (
 	"github.com/go-quicktest/qt"
 	gotoml "github.com/pelletier/go-toml/v2"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/toml"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/encoding/toml"
+	"github.com/sahroshan/cue/internal/astinternal"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 )
 
 func TestDecoder(t *testing.T) {

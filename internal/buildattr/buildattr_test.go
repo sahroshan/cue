@@ -3,9 +3,9 @@ package buildattr
 import (
 	"testing"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/parser"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/parser"
 
 	"github.com/go-quicktest/qt"
 )

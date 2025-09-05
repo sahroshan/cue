@@ -5,10 +5,10 @@
 package cache
 
 import (
-	"cuelang.org/go/internal/lsp/fscache"
-	"cuelang.org/go/internal/mod/modpkgload"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/mod/modconfig"
+	"github.com/sahroshan/cue/internal/lsp/fscache"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/mod/modconfig"
 )
 
 // New creates a new Cache.

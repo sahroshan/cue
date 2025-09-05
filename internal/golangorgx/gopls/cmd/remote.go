@@ -13,8 +13,8 @@ import (
 	"log"
 	"os"
 
-	"cuelang.org/go/internal/golangorgx/gopls/lsprpc"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol/command"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/lsprpc"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol/command"
 )
 
 type remote struct {

@@ -22,7 +22,7 @@ import (
 	"github.com/go-quicktest/qt"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/internal/vcs"
+	"github.com/sahroshan/cue/internal/vcs"
 )
 
 func TestCommits(t *testing.T) {

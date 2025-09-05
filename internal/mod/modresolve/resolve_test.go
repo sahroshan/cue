@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
 )
 
 func TestRegistryConfigSchema(t *testing.T) {

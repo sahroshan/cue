@@ -9,12 +9,12 @@ import (
 	"context"
 	"fmt"
 
-	cueformat "cuelang.org/go/cue/format"
+	cueformat "github.com/sahroshan/cue/cue/format"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/tools/diff"
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/tag"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/diff"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/tag"
 )
 
 // Formatting formats the params.TextDocument.URI as canonical cue.

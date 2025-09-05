@@ -72,13 +72,13 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/stats"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/stats"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/convert"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 var (

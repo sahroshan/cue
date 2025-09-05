@@ -25,9 +25,9 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/oauth2"
 
-	"cuelang.org/go/internal/cueconfig"
-	"cuelang.org/go/internal/httplog"
-	"cuelang.org/go/internal/mod/modresolve"
+	"github.com/sahroshan/cue/internal/cueconfig"
+	"github.com/sahroshan/cue/internal/httplog"
+	"github.com/sahroshan/cue/internal/mod/modresolve"
 )
 
 // TODO: We need a testscript to cover "cue login" with its oauth2 device flow.

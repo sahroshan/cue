@@ -17,7 +17,7 @@ package adt
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // TODO(mpvl): perhaps conjunctsProcessed is a better name for this.

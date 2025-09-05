@@ -1,8 +1,8 @@
 package jsonschema
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // valueMap holds a map of values indexed by schema position

@@ -21,8 +21,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"gopkg.in/yaml.v3"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/parser"
 )
 
 func TestEncodeFile(t *testing.T) {

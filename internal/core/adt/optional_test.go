@@ -17,12 +17,12 @@ package adt_test
 import (
 	"testing"
 
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/compile"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/runtime"
 )
 
 func TestOptionalTypes(t *testing.T) {

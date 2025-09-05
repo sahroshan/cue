@@ -15,9 +15,9 @@
 package export
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/core/adt"
 	"github.com/cockroachdb/apd/v3"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // boundSimplifier simplifies bound values into predeclared identifiers, if

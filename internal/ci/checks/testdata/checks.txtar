@@ -45,7 +45,7 @@ this message block-quotes a snippet of code
 
 Signed-off-by: cueckoo <cueckoo@gmail.com>
 -- pass-version --
-versions like cuelang.org/go@v0.9.0 are okay
+versions like github.com/sahroshan/cue@v0.9.0 are okay
 
 Signed-off-by: cueckoo <cueckoo@gmail.com>
 -- pass-lone-at --

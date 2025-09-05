@@ -19,11 +19,11 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
 )
 
 // A Feature is an encoded form of a label which comprises a compact

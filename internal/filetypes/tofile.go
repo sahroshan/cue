@@ -15,7 +15,7 @@
 package filetypes
 
 import (
-	"cuelang.org/go/cue/build"
+	"github.com/sahroshan/cue/cue/build"
 )
 
 //go:generate go run -tags bootstrap ./generate.go

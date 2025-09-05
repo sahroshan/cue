@@ -12,10 +12,10 @@ import (
 	"sort"
 	"sync"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/core"
-	"cuelang.org/go/internal/golangorgx/tools/event/export/metric"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/core"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/export/metric"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 func New() *Exporter {

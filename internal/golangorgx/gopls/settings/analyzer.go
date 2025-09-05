@@ -5,7 +5,7 @@
 package settings
 
 import (
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 	"golang.org/x/tools/go/analysis"
 )
 

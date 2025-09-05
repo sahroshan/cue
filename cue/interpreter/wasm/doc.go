@@ -16,7 +16,7 @@
 // them available to CUE via Wasm modules.
 //
 // To enable Wasm support, pass the result of [New] to
-// [cuelang.org/go/cue/cuecontext.New]. Wasm is enabled by default in
+// [github.com/sahroshan/cue/cue/cuecontext.New]. Wasm is enabled by default in
 // the command line tool.
 //
 // Wasm is an experimental feature and the interface described in this

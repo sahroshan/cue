@@ -17,8 +17,8 @@ package wasm
 import (
 	"fmt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/pkg"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/pkg"
 	"github.com/tetratelabs/wazero/api"
 )
 

@@ -14,7 +14,7 @@
 
 package astutil
 
-import "cuelang.org/go/cue/ast"
+import "github.com/sahroshan/cue/cue/ast"
 
 // A visitor's before method is invoked for each node encountered by Walk.
 // If the result visitor w is true, Walk visits each of the children

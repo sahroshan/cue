@@ -16,10 +16,10 @@ import (
 	"strings"
 	"sync"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/tag"
-	"cuelang.org/go/internal/golangorgx/tools/xcontext"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/tag"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/xcontext"
 )
 
 // NewTracker returns a new Tracker that reports progress to the

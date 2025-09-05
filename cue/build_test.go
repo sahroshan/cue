@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/debug"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 func TestFromExpr(t *testing.T) {

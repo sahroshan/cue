@@ -15,8 +15,8 @@
 package pkg
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // A Schema represents an arbitrary cue.Value that can hold non-concrete values.

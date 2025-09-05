@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/mod/semver"
 )
 
 // EscapePath returns the escaped form of the given module path

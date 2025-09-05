@@ -8,10 +8,10 @@ import (
 	"encoding/json"
 	"path"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol/command"
-	"cuelang.org/go/internal/golangorgx/gopls/test/integration/fake"
-	"cuelang.org/go/internal/golangorgx/tools/xcontext"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol/command"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration/fake"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/xcontext"
 )
 
 // RemoveWorkspaceFile deletes a file on disk but does nothing in the

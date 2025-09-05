@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"slices"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
 )
 
 type packageOrModule interface {

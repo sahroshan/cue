@@ -17,8 +17,8 @@ package adt_test
 import (
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
 )
 
 func closeAll(v cue.Value) cue.Value {

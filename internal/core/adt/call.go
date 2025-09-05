@@ -15,8 +15,8 @@
 package adt
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // A CallContext holds all relevant information for a function call to

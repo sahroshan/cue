@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/internal/golangorgx/tools/testenv"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/testenv"
 )
 
 // WriteModuleVersion creates a directory in the proxy dir for a module.

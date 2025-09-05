@@ -13,8 +13,8 @@ import (
 	"github.com/rogpeppe/go-internal/lockedfile"
 	"golang.org/x/oauth2"
 
-	"cuelang.org/go/internal/mod/modresolve"
-	"cuelang.org/go/internal/robustio"
+	"github.com/sahroshan/cue/internal/mod/modresolve"
+	"github.com/sahroshan/cue/internal/robustio"
 )
 
 // Logins holds the login information as stored in $CUE_CONFIG_DIR/logins.cue.

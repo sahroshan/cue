@@ -27,7 +27,7 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/cuecontext"
 )
 
 //go:embed testharness.go.tmpl

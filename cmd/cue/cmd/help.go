@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/internal/mod/modresolve"
-	"cuelang.org/go/mod/modconfig"
+	"github.com/sahroshan/cue/internal/mod/modresolve"
+	"github.com/sahroshan/cue/mod/modconfig"
 )
 
 // TODO: intersperse the examples at the end of the texts in the
@@ -789,7 +789,7 @@ tasks have completed.
 
 Available tasks can be found in the package documentation at
 
-	https://cuelang.org/go/pkg/tool#section-directories
+	https://github.com/sahroshan/cue/pkg/tool#section-directories
 
 Examples:
 
@@ -870,7 +870,7 @@ again).
 	}
 
 The types of the commands and tasks are defined in CUE itself at
-cuelang.org/go/pkg/tool/tool.cue.
+github.com/sahroshan/cue/pkg/tool/tool.cue.
 
 	command: [Name]: Command
 

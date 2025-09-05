@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 func TestError_Error(t *testing.T) {

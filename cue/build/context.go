@@ -26,8 +26,8 @@
 package build
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/parser"
 )
 
 // A Context keeps track of state of building instances and caches work.
@@ -111,7 +111,7 @@ func Loader(f LoadFunc) Option {
 // ParseFile is called to read and parse each file
 // when building syntax tree.
 // It must be safe to call ParseFile simultaneously from multiple goroutines.
-// If f is nil, the loader will use [cuelang.org/go/cue/parser.ParseFile].
+// If f is nil, the loader will use [github.com/sahroshan/cue/cue/parser.ParseFile].
 //
 // ParseFile should parse the source from src and use filename only for
 // recording position information.

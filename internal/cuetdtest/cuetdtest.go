@@ -19,8 +19,8 @@ package cuetdtest
 import (
 	"testing"
 
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/tdtest"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/internal/tdtest"
 )
 
 func init() {

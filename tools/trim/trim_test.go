@@ -18,12 +18,12 @@ import (
 	"bytes"
 	"testing"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/tools/trim"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/tools/trim"
 )
 
 var (

@@ -17,7 +17,7 @@ package adt
 import (
 	"sync"
 
-	"cuelang.org/go/cue/stats"
+	"github.com/sahroshan/cue/cue/stats"
 )
 
 // This file contains stats and profiling functionality.

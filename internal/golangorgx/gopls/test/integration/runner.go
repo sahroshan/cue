@@ -20,17 +20,17 @@ import (
 	"testing"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/lsprpc"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/gopls/test/integration/fake"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2/servertest"
-	"cuelang.org/go/internal/golangorgx/tools/memoize"
-	"cuelang.org/go/internal/golangorgx/tools/testenv"
-	"cuelang.org/go/internal/golangorgx/tools/xcontext"
-	"cuelang.org/go/internal/lsp/cache"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/lsprpc"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration/fake"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2/servertest"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/memoize"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/testenv"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/xcontext"
+	"github.com/sahroshan/cue/internal/lsp/cache"
 )
 
 // Mode is a bitmask that defines for which execution modes a test should run.

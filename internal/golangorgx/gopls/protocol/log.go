@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
 )
 
 type loggingStream struct {

@@ -21,8 +21,8 @@ import (
 	"cuelabs.dev/go/oci/ociregistry/ociref"
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 func newModResolveCmd(c *Command) *cobra.Command {

@@ -17,7 +17,7 @@ package pkg1
 import (
 	"time"
 
-	"cuelang.org/go/encoding/gocode/testdata/pkg2"
+	"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2"
 )
 
 type MyStruct struct {

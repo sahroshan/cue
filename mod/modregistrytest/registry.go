@@ -27,10 +27,10 @@ import (
 	"cuelabs.dev/go/oci/ociregistry/ociserver"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/module"
-	"cuelang.org/go/mod/modzip"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/module"
+	"github.com/sahroshan/cue/mod/modzip"
 )
 
 // AuthConfig specifies authorization requirements for the server.

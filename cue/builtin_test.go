@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 
-	_ "cuelang.org/go/pkg"
+	_ "github.com/sahroshan/cue/pkg"
 )
 
 func TestBuiltins(t *testing.T) {

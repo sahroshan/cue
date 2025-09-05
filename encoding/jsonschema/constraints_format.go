@@ -17,8 +17,8 @@ package jsonschema
 import (
 	"sync"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 type formatFuncInfo struct {

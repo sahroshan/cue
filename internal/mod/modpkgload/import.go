@@ -11,9 +11,9 @@ import (
 	"slices"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // importFromModules finds the module and source location in the dependency graph of

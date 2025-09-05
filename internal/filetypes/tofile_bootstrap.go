@@ -16,7 +16,7 @@
 
 package filetypes
 
-import "cuelang.org/go/cue/build"
+import "github.com/sahroshan/cue/cue/build"
 
 func toFileGenerated(mode Mode, sc *scope, filename string) (*build.File, error) {
 	panic("never called")

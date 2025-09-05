@@ -55,4 +55,4 @@ zeroReleaseTagPattern: "*" + zeroReleaseTagSuffix
 codeReview: "cue-unity": unityRepositoryURL
 
 // TODO: we can't use `go tool cue` yet.
-cueCommand: "go run cuelang.org/go/cmd/cue"
+cueCommand: "go run github.com/sahroshan/cue/cmd/cue"

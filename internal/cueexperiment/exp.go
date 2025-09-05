@@ -3,7 +3,7 @@ package cueexperiment
 import (
 	"sync"
 
-	"cuelang.org/go/internal/envflag"
+	"github.com/sahroshan/cue/internal/envflag"
 )
 
 // Flags holds the set of global CUE_EXPERIMENT flags. It is initialized by Init.
@@ -55,7 +55,7 @@ type Config struct {
 	// and was deprecated in v0.11.0 (2024-11).
 	YAMLV3Decoder bool `envflag:"deprecated,default:true"`
 
-	// DecodeInt64 changes [cuelang.org/go/cue.Value.Decode] to choose
+	// DecodeInt64 changes [github.com/sahroshan/cue/cue.Value.Decode] to choose
 	// `int64` rather than `int` as the default type for CUE integer values
 	// to ensure consistency with 32-bit platforms.
 	//

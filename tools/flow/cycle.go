@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // checkCycle checks for cyclic dependencies between tasks.

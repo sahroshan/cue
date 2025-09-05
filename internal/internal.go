@@ -28,10 +28,10 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // A Decimal is an arbitrary-precision binary-coded decimal number.
@@ -109,7 +109,7 @@ func Version(minor, patch int) int {
 }
 
 // EvaluatorVersion is declared here so it can be used everywhere without import cycles,
-// but the canonical documentation lives at [cuelang.org/go/cue/cuecontext.EvalVersion].
+// but the canonical documentation lives at [github.com/sahroshan/cue/cue/cuecontext.EvalVersion].
 //
 // TODO(mvdan): rename to EvalVersion for consistency with cuecontext.
 type EvaluatorVersion int
@@ -124,7 +124,7 @@ const (
 	// a user explicitly asking for the default version versus an entirely unset version.
 	DefaultVersion EvaluatorVersion = -1 // TODO(mvdan): rename to EvalDefault for consistency with cuecontext
 
-	// The values below are documented under [cuelang.org/go/cue/cuecontext.EvalVersion].
+	// The values below are documented under [github.com/sahroshan/cue/cue/cuecontext.EvalVersion].
 	// We should never change or delete the values below, as they describe all known past versions
 	// which is useful for understanding old debug output.
 

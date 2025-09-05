@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 func newModInitCmd(c *Command) *cobra.Command {

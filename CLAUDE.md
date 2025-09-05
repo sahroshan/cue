@@ -96,7 +96,7 @@ go fmt ./...
 - Changes should be linked to a GitHub issue (except trivial changes)
 
 ### Module Information
-- Module: `cuelang.org/go`
+- Module: `github.com/sahroshan/cue`
 - Requires Go 1.23 or later
 - Uses Go modules for dependency management
 

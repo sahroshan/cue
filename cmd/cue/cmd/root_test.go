@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cmd/cue/cmd"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cmd/cue/cmd"
 )
 
 // The cmd package exposes some APIs, which some users rely on.

@@ -17,7 +17,7 @@ package structs_test
 import (
 	"testing"
 
-	"cuelang.org/go/pkg/internal/builtintest"
+	"github.com/sahroshan/cue/pkg/internal/builtintest"
 )
 
 func TestBuiltin(t *testing.T) {

@@ -21,16 +21,16 @@ import (
 	"io"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	cuejson "cuelang.org/go/encoding/json"
-	"cuelang.org/go/internal/core/adt"
-	internaljson "cuelang.org/go/internal/encoding/json"
-	"cuelang.org/go/internal/pkg"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	cuejson "github.com/sahroshan/cue/encoding/json"
+	"github.com/sahroshan/cue/internal/core/adt"
+	internaljson "github.com/sahroshan/cue/internal/encoding/json"
+	"github.com/sahroshan/cue/internal/pkg"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // Compact generates the JSON-encoded src with insignificant space characters

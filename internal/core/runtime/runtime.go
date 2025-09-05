@@ -15,11 +15,11 @@
 package runtime
 
 import (
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/cuedebug"
-	"cuelang.org/go/internal/cueexperiment"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/cuedebug"
+	"github.com/sahroshan/cue/internal/cueexperiment"
 )
 
 // A Runtime maintains data structures for indexing and reuse for evaluation.
@@ -129,7 +129,7 @@ func (r *Runtime) Init() {
 
 	// By default we follow the environment's CUE_DEBUG settings,
 	// which can be overriden via [Runtime.SetDebugOptions],
-	// such as with the API option [cuelang.org/go/cue/cuecontext.CUE_DEBUG].
+	// such as with the API option [github.com/sahroshan/cue/cue/cuecontext.CUE_DEBUG].
 	cuedebug.Init()
 	r.SetDebugOptions(&cuedebug.Flags)
 

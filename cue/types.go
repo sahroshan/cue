@@ -26,19 +26,19 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/export"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/core/subsume"
-	internaljson "cuelang.org/go/internal/encoding/json"
-	"cuelang.org/go/internal/types"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/compile"
+	"github.com/sahroshan/cue/internal/core/convert"
+	"github.com/sahroshan/cue/internal/core/export"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/core/subsume"
+	internaljson "github.com/sahroshan/cue/internal/encoding/json"
+	"github.com/sahroshan/cue/internal/types"
 )
 
 // Kind determines the underlying type of a Value.
@@ -892,13 +892,13 @@ You could file a bug with the above information at:
 	if o.concrete || o.final || o.resolveReferences {
 		f, err = p.Vertex(v.idx, pkgID, v.v)
 		if err != nil {
-			return bad(`"cuelang.org/go/internal/core/export".Vertex`, err)
+			return bad(`"github.com/sahroshan/cue/internal/core/export".Vertex`, err)
 		}
 	} else {
 		p.AddPackage = true
 		f, err = p.Def(v.idx, pkgID, v.v)
 		if err != nil {
-			return bad(`"cuelang.org/go/internal/core/export".Def`, err)
+			return bad(`"github.com/sahroshan/cue/internal/core/export".Def`, err)
 		}
 	}
 

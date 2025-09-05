@@ -21,9 +21,9 @@ import (
 	"os"
 	"testing"
 
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/pkg/internal/builtintest"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/pkg/internal/builtintest"
 )
 
 func TestBuiltin(t *testing.T) {

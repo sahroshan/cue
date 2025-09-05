@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"strings"
 
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/mod/semver"
 )
 
 func parseExperiments(x ...string) (m map[string]bool) {

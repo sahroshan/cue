@@ -15,7 +15,7 @@
 package jsonschema
 
 import (
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 // Meta constraints

@@ -10,10 +10,10 @@ import (
 	"testing/fstest"
 	"time"
 
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/lsp/fscache"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/lsp/fscache"
 )
 
 const fileContent = "package foo\n\nx: true"

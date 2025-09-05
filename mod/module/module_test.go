@@ -7,8 +7,8 @@ package module
 import (
 	"testing"
 
-	"cuelang.org/go/internal/cuetest"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/internal/cuetest"
 )
 
 var checkTests = []struct {

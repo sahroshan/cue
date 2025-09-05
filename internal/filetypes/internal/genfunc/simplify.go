@@ -18,9 +18,9 @@ import (
 	_ "embed"
 	"reflect"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // simplify applies some simplifications to the given expression to reduce the range

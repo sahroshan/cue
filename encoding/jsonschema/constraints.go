@@ -17,7 +17,7 @@ package jsonschema
 import (
 	"fmt"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 type constraint struct {

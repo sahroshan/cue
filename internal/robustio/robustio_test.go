@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"cuelang.org/go/internal/robustio"
+	"github.com/sahroshan/cue/internal/robustio"
 )
 
 func checkOSLink(t *testing.T, err error) {

@@ -16,10 +16,10 @@
 package structs
 
 import (
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/pkg"
 )
 
 // MinFields validates the minimum number of fields that are part of a struct.

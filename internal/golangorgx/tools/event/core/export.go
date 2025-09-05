@@ -10,7 +10,7 @@ import (
 	"time"
 	"unsafe"
 
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // Exporter is a function that handles events.

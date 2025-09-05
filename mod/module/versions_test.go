@@ -1,8 +1,8 @@
 package module_test
 
 import (
-	"cuelang.org/go/internal/mod/mvs"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/mod/mvs"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 var _ mvs.Versions[module.Version] = module.Versions{}

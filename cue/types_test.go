@@ -27,16 +27,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/tdtest"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/astinternal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/debug"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/internal/tdtest"
 )
 
 func getValue(m *cuetdtest.M, body string) cue.Value {
@@ -4046,7 +4046,7 @@ func TestExpr(t *testing.T) {
 		input: `v: and([])`,
 		want:  `_`,
 	}, {
-		//Issue #1245
+		// Issue #1245
 		input: `
 				x: *4 | int
 				v: x | *7

@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/token"
 	"github.com/google/go-cmp/cmp"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 type keyVals [][3]string

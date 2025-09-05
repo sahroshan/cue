@@ -54,7 +54,7 @@ specs: {
 		versions!: [... {
 			name!: string
 			schema!: {
-				openAPIV3Schema!: _ @go(,type="cuelang.org/go/cue".Value)
+				openAPIV3Schema!: _ @go(,type="github.com/sahroshan/cue/cue".Value)
 			}
 		}]
 	}

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package modfiledata holds the underlying module.cue file
-// representation. It is separate from the [cuelang.org/go/mod/modfile]
+// representation. It is separate from the [github.com/sahroshan/cue/mod/modfile]
 // package to allow the type to be used without incurring the
 // dependency on the CUE evaluator brought in by the
 // [modfile.Parse] and [modfile.Format] functions.
@@ -28,21 +28,21 @@ import (
 	"slices"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/module"
 )
 
-// TODO merge this back into [cuelang.org/go/mod/modfile] when
+// TODO merge this back into [github.com/sahroshan/cue/mod/modfile] when
 // we can remove the evaluator dependency from that package.
 
 // Note that [File] and the types that it depends on are considered
 // to be public types even though they are defined in an internal
-// package because they are aliased in the [cuelang.org/go/mod/modfile]
+// package because they are aliased in the [github.com/sahroshan/cue/mod/modfile]
 // package.
 
 // File represents the contents of a cue.mod/module.cue file.
-// Use [cuelang.org/go/mod/modfile.Parse] to parse the file in
+// Use [github.com/sahroshan/cue/mod/modfile.Parse] to parse the file in
 // its standard format.
 type File struct {
 	// Module holds the module path, which may

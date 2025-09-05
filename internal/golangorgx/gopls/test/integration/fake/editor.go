@@ -19,13 +19,13 @@ import (
 	"strings"
 	"sync"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol/command"
-	"cuelang.org/go/internal/golangorgx/gopls/test/integration/fake/glob"
-	"cuelang.org/go/internal/golangorgx/gopls/util/pathutil"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2/servertest"
-	"cuelang.org/go/internal/golangorgx/tools/xcontext"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol/command"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration/fake/glob"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/util/pathutil"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2/servertest"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/xcontext"
 )
 
 // Editor is a fake client editor.  It keeps track of client state and can be

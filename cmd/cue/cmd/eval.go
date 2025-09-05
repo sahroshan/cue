@@ -19,12 +19,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/encoding"
-	"cuelang.org/go/internal/filetypes"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/encoding"
+	"github.com/sahroshan/cue/internal/filetypes"
 )
 
 // newEvalCmd creates a new eval command

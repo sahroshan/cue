@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/internal/golangorgx/tools/gocommand"
-	"cuelang.org/go/internal/golangorgx/tools/testenv"
-	"cuelang.org/go/internal/robustio"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/gocommand"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/testenv"
+	"github.com/sahroshan/cue/internal/robustio"
 	"golang.org/x/tools/txtar"
 )
 

@@ -23,7 +23,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // An ErrorHandler is a generic error handler used throughout CUE packages.
@@ -156,7 +156,7 @@ func (s *Scanner) scanComment() string {
 	hasCR := false
 
 	if s.ch == '/' {
-		//-style comment
+		// -style comment
 		s.next()
 		for s.ch != '\n' && s.ch >= 0 {
 			if s.ch == '\r' {

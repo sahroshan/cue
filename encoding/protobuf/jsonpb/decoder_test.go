@@ -18,17 +18,17 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/encoding/json"
-	"cuelang.org/go/encoding/protobuf/jsonpb"
-	"cuelang.org/go/encoding/yaml"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/encoding/json"
+	"github.com/sahroshan/cue/encoding/protobuf/jsonpb"
+	"github.com/sahroshan/cue/encoding/yaml"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 )
 
 func TestParse(t *testing.T) {

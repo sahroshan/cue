@@ -17,17 +17,17 @@ package cue
 import (
 	"cmp"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/compile"
+	"github.com/sahroshan/cue/internal/core/convert"
+	"github.com/sahroshan/cue/internal/core/debug"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/runtime"
 )
 
 // A Context is used for creating CUE [Value] objects.
@@ -36,7 +36,7 @@ import (
 // representations of values, and defines the set of supported builtins. Any
 // operation that involves two Values should originate from the same Context.
 //
-// Use [cuelang.org/go/cue/cuecontext.New] to create a new context.
+// Use [github.com/sahroshan/cue/cue/cuecontext.New] to create a new context.
 //
 // Note that a context may grow in size as more values are created or loaded.
 // If memory usage becomes a problem, consider avoiding long-lived contexts,

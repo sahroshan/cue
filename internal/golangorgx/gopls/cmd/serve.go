@@ -14,11 +14,11 @@ import (
 	"os"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/lsprpc"
-	"cuelang.org/go/internal/golangorgx/tools/fakenet"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
-	"cuelang.org/go/internal/golangorgx/tools/tool"
-	"cuelang.org/go/internal/lsp/cache"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/lsprpc"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/fakenet"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/tool"
+	"github.com/sahroshan/cue/internal/lsp/cache"
 )
 
 // Serve is a struct that exposes the configurable parts of the LSP server as

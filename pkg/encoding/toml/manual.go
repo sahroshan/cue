@@ -18,9 +18,9 @@ import (
 	"bytes"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/encoding/toml"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/encoding/toml"
 )
 
 // Marshal returns the TOML encoding of v.

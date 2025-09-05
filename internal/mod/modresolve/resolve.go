@@ -28,11 +28,11 @@ import (
 
 	"cuelabs.dev/go/oci/ociregistry/ociref"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // pathEncoding represents one of the possible types of
@@ -201,7 +201,7 @@ func RegistryConfigSchema() string {
 func ParseConfig(configFile []byte, filename string, catchAllDefault string) (LocationResolver, error) {
 	configSchemaOnce.Do(func() {
 		ctx := cuecontext.New()
-		schemav := ctx.CompileBytes(configSchemaData, cue.Filename("cuelang.org/go/internal/mod/modresolve/schema.cue"))
+		schemav := ctx.CompileBytes(configSchemaData, cue.Filename("github.com/sahroshan/cue/internal/mod/modresolve/schema.cue"))
 		schemav = schemav.LookupPath(cue.MakePath(cue.Def("#file")))
 		if err := schemav.Validate(); err != nil {
 			panic(fmt.Errorf("internal error: invalid CUE registry config schema: %v", errors.Details(err, nil)))

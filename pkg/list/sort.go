@@ -22,11 +22,11 @@ import (
 	"slices"
 	"sort"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/types"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/types"
 )
 
 // valueSorter defines a sort.Interface; implemented in cue/builtinutil.go.

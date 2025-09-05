@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/keys"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
-	"cuelang.org/go/internal/golangorgx/tools/event/tag"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/keys"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/tag"
 )
 
 // An Runner will run go command invocations and serialize

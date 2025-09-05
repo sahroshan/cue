@@ -21,10 +21,10 @@ import (
 	"iter"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // GenerateGoTypeForFields writes to buf a definition for a Go struct type named
@@ -80,7 +80,7 @@ func GenerateGoFuncForCUEStruct(buf *bytes.Buffer, funcName, structName string, 
 		typeName:   typeName,
 	}
 	for name, v := range structFields(e) {
-		//log.Printf("syntax for %s: %s", name, dump(v.Syntax(cue.Raw())))
+		// log.Printf("syntax for %s: %s", name, dump(v.Syntax(cue.Raw())))
 		g.scope[name] = simplify(v.Syntax(cue.Raw()).(ast.Expr))
 	}
 	g.emitf("// %s unifies %s values according to the following CUE logic:", funcName, structName)

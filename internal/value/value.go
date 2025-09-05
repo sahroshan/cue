@@ -19,12 +19,12 @@ package value
 import (
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/types"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/convert"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/types"
 )
 
 // Context returns the cue.Context of the given argument.

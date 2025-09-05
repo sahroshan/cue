@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/encoding/protobuf/pbinternal"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/encoding/protobuf/pbinternal"
 
 	pbast "github.com/protocolbuffers/txtpbfmt/ast"
 	"github.com/protocolbuffers/txtpbfmt/parser"

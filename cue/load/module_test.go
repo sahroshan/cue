@@ -12,13 +12,13 @@ import (
 	"github.com/go-quicktest/qt"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/mod/modcache"
-	"cuelang.org/go/mod/modregistrytest"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/mod/modcache"
+	"github.com/sahroshan/cue/mod/modregistrytest"
 )
 
 func TestModuleLoadWithInvalidRegistryConfig(t *testing.T) {

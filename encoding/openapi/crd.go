@@ -44,8 +44,8 @@ package openapi
 //
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 // newCoreBuilder returns a builder that represents a structural schema.

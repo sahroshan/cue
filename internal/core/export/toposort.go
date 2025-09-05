@@ -15,8 +15,8 @@
 package export
 
 import (
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/toposort"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/toposort"
 )
 
 // TODO: topological sort should go arguably in a more fundamental place as it

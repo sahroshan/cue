@@ -25,7 +25,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/internal/cueversion"
+	"github.com/sahroshan/cue/internal/cueversion"
 )
 
 func newVersionCmd(c *Command) *cobra.Command {
@@ -75,7 +75,7 @@ func runVersion(cmd *Command, args []string) error {
 	return nil
 }
 
-// cueModuleVersion returns the version of the cuelang.org/go module as much
+// cueModuleVersion returns the version of the github.com/sahroshan/cue module as much
 // as can reasonably be determined. If no version can be determined,
 // it returns the empty string.
 func cueModuleVersion() string {

@@ -32,16 +32,16 @@ import (
 	"strings"
 	"text/template"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/filetypes/internal"
-	"cuelang.org/go/internal/filetypes/internal/genfunc"
-	"cuelang.org/go/internal/filetypes/internal/genstruct"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/filetypes/internal"
+	"github.com/sahroshan/cue/internal/filetypes/internal/genfunc"
+	"github.com/sahroshan/cue/internal/filetypes/internal/genstruct"
 )
 
 type tmplParams struct {

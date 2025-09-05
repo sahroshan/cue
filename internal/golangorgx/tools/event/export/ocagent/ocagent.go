@@ -18,13 +18,13 @@ import (
 	"sync"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/core"
-	"cuelang.org/go/internal/golangorgx/tools/event/export"
-	"cuelang.org/go/internal/golangorgx/tools/event/export/metric"
-	"cuelang.org/go/internal/golangorgx/tools/event/export/ocagent/wire"
-	"cuelang.org/go/internal/golangorgx/tools/event/keys"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/core"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/export"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/export/metric"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/export/ocagent/wire"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/keys"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 type Config struct {
@@ -137,14 +137,14 @@ func (e *Exporter) Flush() {
 		e.send("/v1/trace", &wire.ExportTraceServiceRequest{
 			Node:  e.config.buildNode(),
 			Spans: spans,
-			//TODO: Resource?
+			// TODO: Resource?
 		})
 	}
 	if len(metrics) > 0 {
 		e.send("/v1/metrics", &wire.ExportMetricsServiceRequest{
 			Node:    e.config.buildNode(),
 			Metrics: metrics,
-			//TODO: Resource?
+			// TODO: Resource?
 		})
 	}
 }
@@ -210,7 +210,7 @@ func convertSpan(span *export.Span) *wire.Span {
 	result := &wire.Span{
 		TraceID:                 span.ID.TraceID[:],
 		SpanID:                  span.ID.SpanID[:],
-		TraceState:              nil, //TODO?
+		TraceState:              nil, // TODO?
 		ParentSpanID:            span.ParentID[:],
 		Name:                    toTruncatableString(span.Name),
 		Kind:                    wire.UnspecifiedSpanKind,
@@ -219,10 +219,10 @@ func convertSpan(span *export.Span) *wire.Span {
 		Attributes:              convertAttributes(span.Start(), 1),
 		TimeEvents:              convertEvents(span.Events()),
 		SameProcessAsParentSpan: true,
-		//TODO: StackTrace?
-		//TODO: Links?
-		//TODO: Status?
-		//TODO: Resource?
+		// TODO: StackTrace?
+		// TODO: Links?
+		// TODO: Status?
+		// TODO: Resource?
 	}
 	return result
 }
@@ -313,7 +313,7 @@ func convertAttribute(l label.Label) wire.Attribute {
 }
 
 func convertEvents(events []core.Event) *wire.TimeEvents {
-	//TODO: MessageEvents?
+	// TODO: MessageEvents?
 	result := make([]wire.TimeEvent, len(events))
 	for i, event := range events {
 		result[i] = convertEvent(event)

@@ -20,10 +20,10 @@ import (
 	"os"
 	"strconv"
 
-	"cuelang.org/go/internal/cueversion"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/cueversion"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

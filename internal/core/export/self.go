@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/dep"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/dep"
 )
 
 // This file contains the algorithm to contain a self-contained CUE file.

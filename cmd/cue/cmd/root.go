@@ -29,15 +29,15 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/text/message"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/stats"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/cueexperiment"
-	"cuelang.org/go/internal/encoding"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/httplog"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/stats"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/cueexperiment"
+	"github.com/sahroshan/cue/internal/encoding"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/httplog"
 )
 
 // TODO: commands

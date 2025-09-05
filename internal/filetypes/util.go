@@ -17,7 +17,7 @@ package filetypes
 import (
 	"strings"
 
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 // IsPackage reports whether a command-line argument is a package based on its

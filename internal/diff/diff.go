@@ -15,7 +15,7 @@
 package diff
 
 import (
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 // Profile configures a diff operation.

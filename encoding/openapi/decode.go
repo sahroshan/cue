@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/jsonschema"
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/encoding/jsonschema"
+	"github.com/sahroshan/cue/internal"
 )
 
 // Extract converts OpenAPI definitions to an equivalent CUE representation.

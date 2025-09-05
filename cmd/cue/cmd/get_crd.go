@@ -25,12 +25,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/encoding/jsonschema"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/encoding"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/encoding/jsonschema"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/encoding"
 )
 
 func newCRDCmd(c *Command) *cobra.Command {

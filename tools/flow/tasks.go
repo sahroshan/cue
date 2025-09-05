@@ -18,11 +18,11 @@ package flow
 // and annotating the dependencies between them.
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/dep"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/dep"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // initTasks takes the current configuration and adds tasks to the list of

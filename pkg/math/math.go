@@ -23,7 +23,7 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/internal"
 )
 
 // Abs returns the absolute value of x.

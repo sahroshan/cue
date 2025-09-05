@@ -20,13 +20,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
-	_ "cuelang.org/go/pkg"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/token"
+	_ "github.com/sahroshan/cue/pkg"
 )
 
 func TestToFile(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/internal/diff"
-	"cuelang.org/go/tools/trim"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/internal/diff"
+	"github.com/sahroshan/cue/tools/trim"
 )
 
 // TODO:

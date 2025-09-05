@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/scanner"
-	"cuelang.org/go/cue/token"
 	"github.com/cockroachdb/apd/v3"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/scanner"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // AttrKind indicates the location of an attribute within CUE source.

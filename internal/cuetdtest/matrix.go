@@ -17,11 +17,11 @@ package cuetdtest
 import (
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuedebug"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/cuedebug"
 )
 
 // M represents a point in the evaluation matrix of possible

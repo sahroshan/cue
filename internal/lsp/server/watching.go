@@ -20,7 +20,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 )
 
 func sameKeys[K comparable, V1, V2 any](x map[K]V1, y map[K]V2) bool {

@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"cuelang.org/go/mod/modfile"
+	"github.com/sahroshan/cue/mod/modfile"
 	"github.com/spf13/cobra"
 )
 

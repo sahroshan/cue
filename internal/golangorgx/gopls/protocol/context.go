@@ -9,11 +9,11 @@ import (
 	"context"
 	"sync"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/core"
-	"cuelang.org/go/internal/golangorgx/tools/event/export"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
-	"cuelang.org/go/internal/golangorgx/tools/xcontext"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/core"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/export"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/xcontext"
 )
 
 type contextKey int

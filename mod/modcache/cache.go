@@ -14,8 +14,8 @@ import (
 
 	"github.com/rogpeppe/go-internal/lockedfile"
 
-	"cuelang.org/go/internal/robustio"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/robustio"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 var errNotCached = fmt.Errorf("not in cache")

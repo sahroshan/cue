@@ -140,8 +140,8 @@ import (
 	"maps"
 	"slices"
 
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 type structMeta struct {

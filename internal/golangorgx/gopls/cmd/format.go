@@ -9,7 +9,7 @@ import (
 	"flag"
 	"fmt"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 )
 
 // format implements the format verb for cuelsp.

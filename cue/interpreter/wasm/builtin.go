@@ -15,10 +15,10 @@
 package wasm
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/pkg"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // generateCallThatReturnsBuiltin returns a call expression to a nullary

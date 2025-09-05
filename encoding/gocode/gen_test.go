@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/encoding/gocode/testdata/pkg1"
-	"cuelang.org/go/encoding/gocode/testdata/pkg2"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/encoding/gocode/testdata/pkg1"
+	"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2"
 )
 
 type validator interface {
@@ -46,7 +46,7 @@ func TestPackages(t *testing.T) {
 		value: &pkg1.OtherStruct{A: "car"},
 		want: `
 2 errors in empty disjunction:
-conflicting values null and {A:strings.ContainsAny("X"),P:"cuelang.org/go/encoding/gocode/testdata/pkg2".PickMe} (mismatched types null and struct):
+conflicting values null and {A:strings.ContainsAny("X"),P:"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2".PickMe} (mismatched types null and struct):
     pkg1/instance.cue:x:x
 A: invalid value "car" (does not satisfy strings.ContainsAny("X")):
     pkg1/instance.cue:x:x
@@ -58,7 +58,7 @@ A: invalid value "car" (does not satisfy strings.ContainsAny("X")):
 		value: &pkg1.MyStruct{A: 11, B: "dog"},
 		want: `
 2 errors in empty disjunction:
-conflicting values null and {A:<=10,B:(=~"cat"|*"dog"),O?:OtherStruct,I:"cuelang.org/go/encoding/gocode/testdata/pkg2".ImportMe} (mismatched types null and struct):
+conflicting values null and {A:<=10,B:(=~"cat"|*"dog"),O?:OtherStruct,I:"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2".ImportMe} (mismatched types null and struct):
     pkg1/instance.cue:x:x
 A: invalid value 11 (out of bound <=10):
     pkg1/instance.cue:x:x`,
@@ -67,10 +67,10 @@ A: invalid value 11 (out of bound <=10):
 		value: &pkg1.MyStruct{A: 5, B: "dog", O: &pkg1.OtherStruct{A: "car", P: 6}},
 		want: `
 4 errors in empty disjunction:
-conflicting values null and {A:<=10,B:(=~"cat"|*"dog"),O?:OtherStruct,I:"cuelang.org/go/encoding/gocode/testdata/pkg2".ImportMe} (mismatched types null and struct):
+conflicting values null and {A:<=10,B:(=~"cat"|*"dog"),O?:OtherStruct,I:"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2".ImportMe} (mismatched types null and struct):
     pkg1/instance.cue:x:x
 O: 2 errors in empty disjunction:
-O: conflicting values null and {A:strings.ContainsAny("X"),P:"cuelang.org/go/encoding/gocode/testdata/pkg2".PickMe} (mismatched types null and struct):
+O: conflicting values null and {A:strings.ContainsAny("X"),P:"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2".PickMe} (mismatched types null and struct):
     pkg1/instance.cue:x:x
 O.A: invalid value "car" (does not satisfy strings.ContainsAny("X")):
     pkg1/instance.cue:x:x
@@ -82,10 +82,10 @@ O.A: invalid value "car" (does not satisfy strings.ContainsAny("X")):
 		value: &pkg1.MyStruct{A: 5, B: "dog", O: &pkg1.OtherStruct{A: "X", P: 4}},
 		want: `
 4 errors in empty disjunction:
-conflicting values null and {A:<=10,B:(=~"cat"|*"dog"),O?:OtherStruct,I:"cuelang.org/go/encoding/gocode/testdata/pkg2".ImportMe} (mismatched types null and struct):
+conflicting values null and {A:<=10,B:(=~"cat"|*"dog"),O?:OtherStruct,I:"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2".ImportMe} (mismatched types null and struct):
     pkg1/instance.cue:x:x
 O: 2 errors in empty disjunction:
-O: conflicting values null and {A:strings.ContainsAny("X"),P:"cuelang.org/go/encoding/gocode/testdata/pkg2".PickMe} (mismatched types null and struct):
+O: conflicting values null and {A:strings.ContainsAny("X"),P:"github.com/sahroshan/cue/encoding/gocode/testdata/pkg2".PickMe} (mismatched types null and struct):
     pkg1/instance.cue:x:x
 O.P: invalid value 4 (out of bound >5):
     pkg2/instance.cue:x:x

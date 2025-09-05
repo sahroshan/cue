@@ -20,10 +20,10 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // CallCtxt is passed to builtin implementations that need to use a cue.Value. This is an internal type. Its interface may change.

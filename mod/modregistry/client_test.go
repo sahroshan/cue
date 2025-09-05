@@ -34,9 +34,9 @@ import (
 	"cuelabs.dev/go/oci/ociregistry/ociclient"
 	"cuelabs.dev/go/oci/ociregistry/ocimem"
 
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/module"
-	"cuelang.org/go/mod/modzip"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/module"
+	"github.com/sahroshan/cue/mod/modzip"
 )
 
 func newTestClient(t *testing.T) *Client {

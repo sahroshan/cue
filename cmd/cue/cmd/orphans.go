@@ -19,17 +19,17 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/protobuf/jsonpb"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/encoding"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/encoding/protobuf/jsonpb"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/astinternal"
+	"github.com/sahroshan/cue/internal/encoding"
 )
 
 // This file contains logic for placing orphan files within a CUE namespace.

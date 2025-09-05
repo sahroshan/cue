@@ -14,11 +14,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/modimports"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/modimports"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 func TestLoadPackages(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"os/exec"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
 )
 
 // autoNetwork is the pseudo network type used to signal that cuelsp should use

@@ -24,11 +24,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/internal/cueconfig"
-	"cuelang.org/go/internal/cueversion"
-	"cuelang.org/go/mod/modcache"
-	"cuelang.org/go/mod/modregistrytest"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/cueconfig"
+	"github.com/sahroshan/cue/internal/cueversion"
+	"github.com/sahroshan/cue/mod/modcache"
+	"github.com/sahroshan/cue/mod/modregistrytest"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // TODO: the test below acts as a smoke test for the functionality here,
@@ -150,7 +150,7 @@ package x
 	err = modregistrytest.Upload(ctx, rmem, regFS)
 	qt.Assert(t, qt.IsNil(err))
 	rh := ociserver.New(rmem, nil)
-	agent := cueversion.UserAgent("cuelang.org/go")
+	agent := cueversion.UserAgent("github.com/sahroshan/cue")
 	checked := false
 	checkUserAgentHandler := http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
 		qt.Check(t, qt.Equals(req.UserAgent(), agent))

@@ -17,8 +17,8 @@ package adt
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 var (

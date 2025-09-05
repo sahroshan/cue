@@ -23,9 +23,9 @@ package gocodec
 import (
 	"sync"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // Config has no options yet, but is defined for future extensibility.

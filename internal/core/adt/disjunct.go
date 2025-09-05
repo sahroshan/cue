@@ -17,8 +17,8 @@ package adt
 import (
 	"slices"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // Nodes man not reenter a disjunction.

@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/task"
-	pkgpath "cuelang.org/go/pkg/path"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/task"
+	pkgpath "github.com/sahroshan/cue/pkg/path"
 )
 
 func init() {

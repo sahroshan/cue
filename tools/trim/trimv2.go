@@ -18,15 +18,15 @@ import (
 	"io"
 	"os"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/subsume"
-	"cuelang.org/go/internal/core/walk"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/debug"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/subsume"
+	"github.com/sahroshan/cue/internal/core/walk"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // Files trims fields in the given files that can be implied from other fields,

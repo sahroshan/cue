@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 func (t *trimmerV2) trace(v *adt.Vertex) (*trimmerV2, *adt.Vertex) {

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"log"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
 )
 
 func ExampleContext() {

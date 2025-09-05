@@ -27,8 +27,8 @@ import (
 	"path"
 	"slices"
 
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/jsonschema/internal/externaltest"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/encoding/jsonschema/internal/externaltest"
 )
 
 const testDir = "testdata/external"

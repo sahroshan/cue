@@ -13,10 +13,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/mod/modcache"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/modregistrytest"
+	"github.com/sahroshan/cue/mod/modcache"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/modregistrytest"
 )
 
 func TestTidy(t *testing.T) {

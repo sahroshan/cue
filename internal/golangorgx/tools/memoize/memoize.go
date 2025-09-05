@@ -26,7 +26,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"cuelang.org/go/internal/golangorgx/tools/xcontext"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/xcontext"
 )
 
 // Function is the type of a function that can be memoized.

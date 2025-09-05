@@ -13,7 +13,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
-[![Go Reference](https://pkg.go.dev/badge/cuelang.org/go.svg)](https://pkg.go.dev/cuelang.org/go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sahroshan/cue.svg)](https://pkg.go.dev/github.com/sahroshan/cue)
 [![Documentation](https://img.shields.io/badge/CUE-Docs-0066ff)](https://cuelang.org/docs/)
 [![Github](https://github.com/cue-lang/cue/actions/workflows/trybot.yaml/badge.svg)](https://github.com/cue-lang/cue/actions/workflows/trybot.yaml?query=branch%3Amaster+event%3Apush)
 [![Go 1.23+](https://img.shields.io/badge/go-1.23-9cf.svg)](https://golang.org/dl/)
@@ -45,14 +45,14 @@ Download the [latest release](https://github.com/cue-lang/cue/releases/latest/) 
 
 You need [Go 1.23 or later](https://go.dev/doc/install) to install CUE from source:
 
-	go install cuelang.org/go/cmd/cue@latest
+	go install github.com/sahroshan/cue/cmd/cue@latest
 
 You can also clone the repository and build it directly via `go install ./cmd/cue`.
 Note that local builds [lack version information](https://go.dev/issue/50603),
 so you should inject the version string when building a release, such as:
 
 	git switch -d v0.13.1
-	go install -ldflags='-X cuelang.org/go/cmd/cue/cmd.version=v0.13.1' ./cmd/cue
+	go install -ldflags='-X github.com/sahroshan/cue/cmd/cue/cmd.version=v0.13.1' ./cmd/cue
 
 ### Learning CUE
 
@@ -68,8 +68,8 @@ The [cuelang.org](https://cuelang.org) website also contains
 ### Popular references
 
 - The official [CUE Language Specification](https://cuelang.org/docs/reference/spec/)
-- The CUE [Go API](https://pkg.go.dev/cuelang.org/go) on pkg.go.dev
-- [Builtin packages and functions](https://pkg.go.dev/cuelang.org/go/pkg)
+- The CUE [Go API](https://pkg.go.dev/github.com/sahroshan/cue) on pkg.go.dev
+- [Builtin packages and functions](https://pkg.go.dev/github.com/sahroshan/cue/pkg)
   available from CUE programs
 - [The `cue` command](https://cuelang.org/docs/reference/command/),
   a versatile interface for working with data, CUE, and its ecosystem

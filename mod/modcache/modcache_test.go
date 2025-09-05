@@ -15,9 +15,9 @@ import (
 	"github.com/go-quicktest/qt"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/modregistrytest"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/modregistrytest"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 func TestRequirements(t *testing.T) {

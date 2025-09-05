@@ -19,8 +19,8 @@ import (
 	"slices"
 	"strconv"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 type LoadFunc func(pos token.Pos, path string) *Instance

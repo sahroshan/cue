@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 type Schema struct {

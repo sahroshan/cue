@@ -4,12 +4,12 @@ import (
 	_ "embed"
 	"fmt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
 )
 
-//go:generate go run cuelang.org/go/cmd/cue exp gengotypes .
+//go:generate go run github.com/sahroshan/cue/cmd/cue exp gengotypes .
 
 //go:embed crd.cue
 var crdCUE []byte

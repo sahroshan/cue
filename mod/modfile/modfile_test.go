@@ -21,9 +21,9 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 var parseTests = []struct {

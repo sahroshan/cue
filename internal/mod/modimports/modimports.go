@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/cueimports"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/cueimports"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 type ModuleFile struct {

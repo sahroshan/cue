@@ -11,9 +11,9 @@ import (
 	"sync"
 	"testing"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/test/integration/fake"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2/servertest"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration/fake"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2/servertest"
 )
 
 // Env holds the building blocks of an editor testing environment, providing

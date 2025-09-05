@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/cuetdtest"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal/cuetdtest"
 )
 
 func TestPaths(t *testing.T) {

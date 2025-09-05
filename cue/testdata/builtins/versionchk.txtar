@@ -1,5 +1,5 @@
 -- cue.mod/module.cue --
-module: "cuelang.org/go/internal/core/adt/eval_test"
+module: "github.com/sahroshan/cue/internal/core/adt/eval_test"
 language: version: "v0.8.0"
 -- in.cue --
 // error is not yet available in v0.8.0.

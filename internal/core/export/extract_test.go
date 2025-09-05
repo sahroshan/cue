@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/export"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/compile"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/export"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 )
 
 func TestExtract(t *testing.T) {

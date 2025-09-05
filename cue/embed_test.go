@@ -3,8 +3,8 @@ package cue_test
 import (
 	"testing"
 
-	"cuelang.org/go/cue/cuecontext"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue/cuecontext"
 )
 
 func TestEmbedFailsWhenNotInModule(t *testing.T) {

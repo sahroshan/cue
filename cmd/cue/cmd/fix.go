@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/tools/fix"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/tools/fix"
 	"github.com/spf13/cobra"
 )
 

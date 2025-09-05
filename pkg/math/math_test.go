@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/pkg/internal/builtintest"
-	"cuelang.org/go/pkg/math"
+	"github.com/sahroshan/cue/pkg/internal/builtintest"
+	"github.com/sahroshan/cue/pkg/math"
 )
 
 func TestBuiltin(t *testing.T) {

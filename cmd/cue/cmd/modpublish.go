@@ -36,15 +36,15 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/modload"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/internal/vcs"
-	"cuelang.org/go/mod/modconfig"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/module"
-	"cuelang.org/go/mod/modzip"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/modload"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/vcs"
+	"github.com/sahroshan/cue/mod/modconfig"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/module"
+	"github.com/sahroshan/cue/mod/modzip"
 )
 
 func newModUploadCmd(c *Command) *cobra.Command {

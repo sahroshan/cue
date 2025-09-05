@@ -19,13 +19,13 @@ package parser
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/cueversion"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/internal/source"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/cueversion"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/source"
 )
 
 // Option specifies a parse option.

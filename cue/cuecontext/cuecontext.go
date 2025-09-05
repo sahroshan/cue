@@ -17,14 +17,14 @@ package cuecontext
 import (
 	"fmt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/interpreter/embed"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuedebug"
-	"cuelang.org/go/internal/envflag"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/interpreter/embed"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/cuedebug"
+	"github.com/sahroshan/cue/internal/envflag"
 
-	_ "cuelang.org/go/pkg"
+	_ "github.com/sahroshan/cue/pkg"
 )
 
 // Option controls a build context.
