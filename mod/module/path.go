@@ -9,8 +9,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/semver"
 )
 
 // The following regular expressions come from https://github.com/opencontainers/distribution-spec/blob/main/spec.md#pulling-manifests

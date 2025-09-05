@@ -28,15 +28,15 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/json"
-	"cuelang.org/go/encoding/jsonschema"
-	"cuelang.org/go/encoding/jsonschema/internal/externaltest"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetest"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/encoding/json"
+	"github.com/sahroshan/cue/encoding/jsonschema"
+	"github.com/sahroshan/cue/encoding/jsonschema/internal/externaltest"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetest"
 )
 
 // Pull in the external test data.

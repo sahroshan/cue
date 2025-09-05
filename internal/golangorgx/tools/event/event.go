@@ -7,9 +7,9 @@ package event
 import (
 	"context"
 
-	"cuelang.org/go/internal/golangorgx/tools/event/core"
-	"cuelang.org/go/internal/golangorgx/tools/event/keys"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/core"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/keys"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // Exporter is a function that handles events.

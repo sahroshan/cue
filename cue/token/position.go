@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync"
 
-	"cuelang.org/go/internal/cueexperiment"
+	"github.com/sahroshan/cue/internal/cueexperiment"
 )
 
 // -----------------------------------------------------------------------------

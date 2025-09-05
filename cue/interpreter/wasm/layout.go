@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"math"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // typ is the type (or kind) of an external type.

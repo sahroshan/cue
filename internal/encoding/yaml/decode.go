@@ -14,10 +14,10 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
 )
 
 // TODO(mvdan): we should sanity check that the decoder always produces valid CUE,

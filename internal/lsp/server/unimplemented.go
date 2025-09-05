@@ -10,8 +10,8 @@ import (
 	"context"
 	"fmt"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
 )
 
 func (s *server) CodeAction(ctx context.Context, params *protocol.CodeActionParams) ([]protocol.CodeAction, error) {

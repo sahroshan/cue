@@ -20,7 +20,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 func TestImportInfo(t *testing.T) {

@@ -14,8 +14,8 @@ import (
 	"os"
 	"strings"
 
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/tools/tool"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/tool"
 )
 
 // help implements the help command.

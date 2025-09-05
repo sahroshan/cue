@@ -4,7 +4,7 @@
 
 package file
 
-import "cuelang.org/go/internal/golangorgx/gopls/protocol"
+import "github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 
 // Modification represents a modification to a file.
 type Modification struct {

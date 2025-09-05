@@ -11,7 +11,7 @@ foo: {
 	request: body: *bytes | string
 }
 
-// vendorgithubschema is expected to be run within the cuelang.org/go
+// vendorgithubschema is expected to be run within the github.com/sahroshan/cue
 // cue.mod directory
 root: {
 	get: foo & {

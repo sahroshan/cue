@@ -25,12 +25,12 @@ import (
 	"slices"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // importPkg returns details about the CUE package named by the import path,

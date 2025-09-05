@@ -14,7 +14,7 @@
 
 package build
 
-import "cuelang.org/go/cue/errors"
+import "github.com/sahroshan/cue/cue/errors"
 
 // Note: the json tags in File correspond directly to names
 // used in the encoding/filetypes package, which unmarshals

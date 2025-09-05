@@ -35,14 +35,14 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/tools/go/packages"
 
-	cueast "cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/cue/parser"
-	cuetoken "cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
+	cueast "github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/cue/parser"
+	cuetoken "github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
 )
 
 // TODO:
@@ -890,7 +890,7 @@ func makeDoc(g *ast.CommentGroup, isDoc bool) *cueast.CommentGroup {
 		// The parser has given us exactly the comment text.
 		switch c[1] {
 		case '/':
-			//-style comment (no newline at the end)
+			// -style comment (no newline at the end)
 			a = append(a, &cueast.Comment{Text: c})
 
 		case '*':

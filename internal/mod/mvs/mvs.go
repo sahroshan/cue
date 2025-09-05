@@ -12,7 +12,7 @@ import (
 	"slices"
 	"sync"
 
-	"cuelang.org/go/internal/par"
+	"github.com/sahroshan/cue/internal/par"
 )
 
 // A Reqs is the requirement graph on which Minimal Version Selection (MVS) operates.

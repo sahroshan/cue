@@ -17,8 +17,8 @@ package adt
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // This file contains functionality for processing conjuncts to insert the

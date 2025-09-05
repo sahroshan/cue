@@ -15,12 +15,12 @@
 package literal
 
 import (
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
 	"github.com/cockroachdb/apd/v3"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
-// We avoid cuelang.org/go/internal.Context as that would be an import cycle.
+// We avoid github.com/sahroshan/cue/internal.Context as that would be an import cycle.
 var baseContext apd.Context
 
 func init() {

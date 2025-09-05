@@ -37,7 +37,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"cuelang.org/go/encoding/jsonschema/internal/externaltest"
+	"github.com/sahroshan/cue/encoding/jsonschema/internal/externaltest"
 )
 
 const (

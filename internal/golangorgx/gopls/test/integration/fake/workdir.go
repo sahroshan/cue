@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/robustio"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/robustio"
 )
 
 // RelativeTo is a helper for operations relative to a given directory.

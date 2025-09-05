@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"cuelang.org/go/cue/interpreter/wasm"
+	"github.com/sahroshan/cue/cue/interpreter/wasm"
 )
 
 func init() {

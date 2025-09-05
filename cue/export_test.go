@@ -14,7 +14,7 @@
 
 package cue
 
-import "cuelang.org/go/internal/core/adt"
+import "github.com/sahroshan/cue/internal/core/adt"
 
 // Export the private Value.v field for testing purposes. But do so as
 // a function, not a method, so that we don't run the risk of

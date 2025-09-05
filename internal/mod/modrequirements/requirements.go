@@ -8,11 +8,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/mvs"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/internal/par"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/mvs"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/par"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 type majorVersionDefault struct {

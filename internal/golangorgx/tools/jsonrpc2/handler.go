@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
 )
 
 // Handler is invoked to handle incoming requests.

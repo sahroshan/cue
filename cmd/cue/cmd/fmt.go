@@ -27,14 +27,14 @@ import (
 	"github.com/rogpeppe/go-internal/diff"
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/source"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/source"
 )
 
 func newFmtCmd(c *Command) *cobra.Command {

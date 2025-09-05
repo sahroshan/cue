@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"strings"
 
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 var checkConcrete = &ValidateConfig{

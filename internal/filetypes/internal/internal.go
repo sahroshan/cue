@@ -16,7 +16,7 @@
 // that need to be shared between the code generator and the package proper.
 package internal
 
-import "cuelang.org/go/cue/build"
+import "github.com/sahroshan/cue/cue/build"
 
 type ErrorKind int
 

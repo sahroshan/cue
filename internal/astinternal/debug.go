@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // AppendDebug writes a multi-line Go-like representation of a syntax tree node,

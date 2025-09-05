@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/cmd"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/tools/tool"
-	"cuelang.org/go/internal/lsp/cache"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/cmd"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/tool"
+	"github.com/sahroshan/cue/internal/lsp/cache"
 )
 
 var (

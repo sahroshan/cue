@@ -17,7 +17,7 @@ package parser_test
 import (
 	"testing"
 
-	"cuelang.org/go/cue/parser"
+	"github.com/sahroshan/cue/cue/parser"
 )
 
 func FuzzParseFile(f *testing.F) {

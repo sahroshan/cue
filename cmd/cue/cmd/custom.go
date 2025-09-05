@@ -28,19 +28,19 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/cueexperiment"
-	itask "cuelang.org/go/internal/task"
-	"cuelang.org/go/internal/value"
-	_ "cuelang.org/go/pkg/tool/cli" // Register tasks
-	_ "cuelang.org/go/pkg/tool/exec"
-	_ "cuelang.org/go/pkg/tool/file"
-	_ "cuelang.org/go/pkg/tool/http"
-	_ "cuelang.org/go/pkg/tool/os"
-	"cuelang.org/go/tools/flow"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/cueexperiment"
+	itask "github.com/sahroshan/cue/internal/task"
+	"github.com/sahroshan/cue/internal/value"
+	_ "github.com/sahroshan/cue/pkg/tool/cli" // Register tasks
+	_ "github.com/sahroshan/cue/pkg/tool/exec"
+	_ "github.com/sahroshan/cue/pkg/tool/file"
+	_ "github.com/sahroshan/cue/pkg/tool/http"
+	_ "github.com/sahroshan/cue/pkg/tool/os"
+	"github.com/sahroshan/cue/tools/flow"
 )
 
 const commandSection = "command"

@@ -96,7 +96,7 @@ func (s *set[T]) getInfo(file string) *info {
 	// so as to not to forget how to do it.
 	//
 	// for _, p := range pkg.Types.Imports() {
-	// 	if p.Path() == "cuelang.org/go/internal/tdtest" {
+	// 	if p.Path() == "github.com/sahroshan/cue/internal/tdtest" {
 	// 		info.thisPkg = p
 	// 	}
 	// }
@@ -205,9 +205,9 @@ func findFileAndPackage(path string, pkgs []*packages.Package) (*ast.File, *pack
 
 func isT(s string) bool {
 	// TODO: parametrize this so that tdtest does not have to know of cuetdtest.
-	return s == "*cuelang.org/go/internal/tdtest.T" ||
-		s == "*cuelang.org/go/internal/cuetdtest.T" ||
-		s == "*cuelang.org/go/internal/cuetest.T"
+	return s == "*github.com/sahroshan/cue/internal/tdtest.T" ||
+		s == "*github.com/sahroshan/cue/internal/cuetdtest.T" ||
+		s == "*github.com/sahroshan/cue/internal/cuetest.T"
 }
 
 // findCalls finds all call expressions within a given block for functions

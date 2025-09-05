@@ -6,7 +6,7 @@
 package tag
 
 import (
-	"cuelang.org/go/internal/golangorgx/tools/event/keys"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/keys"
 )
 
 var (
@@ -45,9 +45,9 @@ var (
 var (
 	// create the stats we measure
 	Started       = keys.NewInt64("started", "Count of started RPCs.")
-	ReceivedBytes = keys.NewInt64("received_bytes", "Bytes received.")            //, unit.Bytes)
-	SentBytes     = keys.NewInt64("sent_bytes", "Bytes sent.")                    //, unit.Bytes)
-	Latency       = keys.NewFloat64("latency_ms", "Elapsed time in milliseconds") //, unit.Milliseconds)
+	ReceivedBytes = keys.NewInt64("received_bytes", "Bytes received.")            // , unit.Bytes)
+	SentBytes     = keys.NewInt64("sent_bytes", "Bytes sent.")                    // , unit.Bytes)
+	Latency       = keys.NewFloat64("latency_ms", "Elapsed time in milliseconds") // , unit.Milliseconds)
 )
 
 const (

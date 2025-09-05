@@ -15,10 +15,10 @@
 package pkg
 
 import (
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/runtime"
 )
 
 func Register(importPath string, p *Package) {

@@ -17,11 +17,11 @@ package cli
 import (
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 func ParseValue(pos token.Pos, name, str string, k cue.Kind) (x ast.Expr, errs errors.Error) {

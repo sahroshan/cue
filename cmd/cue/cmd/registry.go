@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"os"
 
-	"cuelang.org/go/internal/cuedebug"
-	"cuelang.org/go/internal/httplog"
-	"cuelang.org/go/internal/mod/modload"
-	"cuelang.org/go/mod/modconfig"
+	"github.com/sahroshan/cue/internal/cuedebug"
+	"github.com/sahroshan/cue/internal/httplog"
+	"github.com/sahroshan/cue/internal/mod/modload"
+	"github.com/sahroshan/cue/mod/modconfig"
 )
 
 // getRegistryResolver returns an implementation of [modregistry.Resolver]

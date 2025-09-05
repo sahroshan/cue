@@ -15,9 +15,9 @@
 package cmd
 
 import (
-	goplscmd "cuelang.org/go/internal/golangorgx/gopls/cmd"
-	"cuelang.org/go/internal/golangorgx/gopls/hooks"
-	"cuelang.org/go/internal/golangorgx/tools/tool"
+	goplscmd "github.com/sahroshan/cue/internal/golangorgx/gopls/cmd"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/hooks"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/tool"
 
 	"github.com/spf13/cobra"
 )

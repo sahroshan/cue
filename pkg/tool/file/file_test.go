@@ -22,12 +22,12 @@ import (
 	"runtime"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/task"
-	"cuelang.org/go/internal/value"
-	"cuelang.org/go/pkg/internal"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/task"
+	"github.com/sahroshan/cue/internal/value"
+	"github.com/sahroshan/cue/pkg/internal"
 )
 
 func parse(t *testing.T, kind, expr string) cue.Value {

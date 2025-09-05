@@ -57,7 +57,7 @@ package regexp
 import (
 	"regexp"
 
-	"cuelang.org/go/cue/errors"
+	"github.com/sahroshan/cue/cue/errors"
 )
 
 var errNoMatch = errors.New("no match")

@@ -17,7 +17,7 @@ package cmd
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/errors"
+	"github.com/sahroshan/cue/cue/errors"
 	"github.com/spf13/cobra"
 )
 
@@ -51,7 +51,7 @@ tasks have completed.
 
 Available tasks can be found in the package documentation at
 
-	https://cuelang.org/go/pkg/tool#section-directories
+	https://github.com/sahroshan/cue/pkg/tool#section-directories
 
 Examples:
 

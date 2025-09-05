@@ -3,7 +3,7 @@ package cuedebug
 import (
 	"sync"
 
-	"cuelang.org/go/internal/envflag"
+	"github.com/sahroshan/cue/internal/envflag"
 )
 
 // Flags holds the set of global CUE_DEBUG flags. It is initialized by Init.
@@ -45,10 +45,10 @@ type Config struct {
 	// OpenDef disables the check for closedness of definitions.
 	OpenDef bool
 
-	// ToolsFlow causes [cuelang.org/go/tools/flow] to print a task dependency mermaid graph.
+	// ToolsFlow causes [github.com/sahroshan/cue/tools/flow] to print a task dependency mermaid graph.
 	ToolsFlow bool
 
-	// ParserTrace causes [cuelang.org/go/cue/parser] to print a trace of parsed productions.
+	// ParserTrace causes [github.com/sahroshan/cue/cue/parser] to print a trace of parsed productions.
 	ParserTrace bool
 }
 

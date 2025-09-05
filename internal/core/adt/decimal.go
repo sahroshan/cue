@@ -15,8 +15,8 @@
 package adt
 
 import (
-	"cuelang.org/go/internal"
 	"github.com/cockroachdb/apd/v3"
+	"github.com/sahroshan/cue/internal"
 )
 
 func (n *Num) Impl() *apd.Decimal {

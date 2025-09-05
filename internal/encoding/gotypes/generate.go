@@ -33,9 +33,9 @@ import (
 
 	goastutil "golang.org/x/tools/go/ast/astutil"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
 )
 
 // Generate produces Go type definitions from exported CUE definitions.

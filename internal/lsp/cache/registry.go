@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	"cuelang.org/go/internal/lsp/fscache"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/lsp/fscache"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // registryWrapper is a wrapper around any existing [Registry]

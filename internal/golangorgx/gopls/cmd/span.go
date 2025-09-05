@@ -13,7 +13,7 @@ import (
 	"sort"
 	"strings"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 )
 
 // A span represents a range of text within a source file.  The start
@@ -159,7 +159,7 @@ func (p _point) isZero() bool {
 }
 
 func (s *_span) clean() {
-	//this presumes the points are already clean
+	// this presumes the points are already clean
 	if !s.End.isValid() || (s.End == _point{}) {
 		s.End = s.Start
 	}
@@ -191,7 +191,7 @@ func (s span) Format(f fmt.State, c rune) {
 	fullForm := f.Flag('+')
 	preferOffset := f.Flag('#')
 	// we should always have a uri, simplify if it is file format
-	//TODO: make sure the end of the uri is unambiguous
+	// TODO: make sure the end of the uri is unambiguous
 	uri := string(s.v.URI)
 	if c == 'f' {
 		uri = path.Base(uri)

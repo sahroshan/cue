@@ -3,9 +3,9 @@ package workspace
 import (
 	"testing"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	. "cuelang.org/go/internal/golangorgx/gopls/test/integration"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	. "github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration"
 )
 
 func TestDelete(t *testing.T) {

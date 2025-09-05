@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"path"
 
-	"cuelang.org/go/internal/cueversion"
-	"cuelang.org/go/internal/golangorgx/gopls/progress"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
-	"cuelang.org/go/internal/lsp/cache"
+	"github.com/sahroshan/cue/internal/cueversion"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/progress"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/lsp/cache"
 )
 
 func validateWorkspaceFolders(folders []protocol.WorkspaceFolder) (map[protocol.WorkspaceFolder]protocol.DocumentURI, error) {

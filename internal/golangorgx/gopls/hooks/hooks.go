@@ -8,7 +8,7 @@
 package hooks
 
 import (
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
 )
 
 func Options(options *settings.Options) {

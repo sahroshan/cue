@@ -19,15 +19,15 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/encoding/json"
-	"cuelang.org/go/encoding/jsonschema"
-	"cuelang.org/go/encoding/yaml"
-	"cuelang.org/go/internal/astinternal"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/encoding/json"
+	"github.com/sahroshan/cue/encoding/jsonschema"
+	"github.com/sahroshan/cue/encoding/yaml"
+	"github.com/sahroshan/cue/internal/astinternal"
 	"golang.org/x/tools/txtar"
 )
 

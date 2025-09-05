@@ -17,15 +17,15 @@ import (
 	"strings"
 	"time"
 
-	"cuelang.org/go/cue/ast"
-	cueerrors "cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/golangorgx/gopls/file"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
-	"cuelang.org/go/internal/lsp/fscache"
-	"cuelang.org/go/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/cue/ast"
+	cueerrors "github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/file"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/lsp/fscache"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
 )
 
 // Workspace corresponds to an LSP Workspace. Each LSP client/editor

@@ -28,18 +28,18 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetest"
 	"github.com/google/go-cmp/cmp"
 	"github.com/rogpeppe/go-internal/diff"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetest"
 	"golang.org/x/tools/txtar"
 )
 
@@ -336,7 +336,7 @@ func loadWithConfig(a *txtar.Archive, dir string, cfg load.Config, args ...strin
 	}
 
 	// Don't walk the chain of parent directories; this busts Go's test cache,
-	// and also leads to loading the root module "cuelang.org/go" repeatedly for no reason.
+	// and also leads to loading the root module "github.com/sahroshan/cue" repeatedly for no reason.
 	cfg.ModuleRoot = "."
 	cfg.Dir = dir
 	cfg.Overlay = overlay

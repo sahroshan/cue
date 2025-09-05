@@ -8,9 +8,9 @@ import (
 	"context"
 	"encoding/json"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol/command"
-	"cuelang.org/go/internal/golangorgx/gopls/test/integration/fake"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol/command"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration/fake"
 )
 
 // RemoveWorkspaceFile deletes a file on disk but does nothing in the

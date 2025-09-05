@@ -15,7 +15,7 @@ import (
 	"context"
 	"fmt"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 )
 
 // Symbolic names for gopls commands, excluding "gopls." prefix.

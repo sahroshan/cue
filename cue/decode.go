@@ -28,8 +28,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // Decode initializes the value pointed to by x with Value v.

@@ -1,7 +1,7 @@
 package module
 
 import (
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/mod/semver"
 )
 
 // Versions implements mvs.Versions[Version].

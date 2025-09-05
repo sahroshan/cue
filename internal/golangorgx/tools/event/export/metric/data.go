@@ -9,8 +9,8 @@ import (
 	"sort"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/event/keys"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/keys"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // Data represents a single point in the time series of a metric.
@@ -20,7 +20,7 @@ import (
 // metric type.
 type Data interface {
 	// Handle returns the metric handle this data is for.
-	//TODO: rethink the concept of metric handles
+	// TODO: rethink the concept of metric handles
 	Handle() string
 	// Groups reports the rows that currently exist for this metric.
 	Groups() [][]label.Label
@@ -111,12 +111,12 @@ type HistogramFloat64Row struct {
 }
 
 func labelListEqual(a, b []label.Label) bool {
-	//TODO: make this more efficient
+	// TODO: make this more efficient
 	return fmt.Sprint(a) == fmt.Sprint(b)
 }
 
 func labelListLess(a, b []label.Label) bool {
-	//TODO: make this more efficient
+	// TODO: make this more efficient
 	return fmt.Sprint(a) < fmt.Sprint(b)
 }
 

@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/cuetdtest"
 	"github.com/cockroachdb/apd/v3"
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/cuetdtest"
 )
 
 func TestDecode(t *testing.T) {

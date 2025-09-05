@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/internal/tdtest"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal/astinternal"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/internal/tdtest"
 	"golang.org/x/tools/txtar"
 )
 

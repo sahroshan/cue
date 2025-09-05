@@ -17,8 +17,8 @@ package ed25519
 import (
 	"crypto/ed25519"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 const (

@@ -38,7 +38,7 @@ command: release: {
 		}
 		$after: goMod
 		dir:    tempDir.path
-		cmd: ["go", "list", "-m", "-f", "{{.Version}}", "cuelang.org/go@latest"]
+		cmd: ["go", "list", "-m", "-f", "{{.Version}}", "github.com/sahroshan/cue@latest"]
 		stdout: string
 	}
 
@@ -50,7 +50,7 @@ command: release: {
 	}
 
 	cueModRoot: exec.Run & {
-		cmd: ["go", "list", "-m", "-f", "{{.Dir}}", "cuelang.org/go"]
+		cmd: ["go", "list", "-m", "-f", "{{.Dir}}", "github.com/sahroshan/cue"]
 		stdout: string
 	}
 

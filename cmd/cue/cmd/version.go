@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/internal/cueversion"
+	"github.com/sahroshan/cue/internal/cueversion"
 )
 
 func newVersionCmd(c *Command) *cobra.Command {

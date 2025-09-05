@@ -21,7 +21,7 @@ import (
 	"sync"
 	"text/template"
 
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/internal"
 )
 
 // Counts holds counters for key events during a CUE evaluation.
@@ -34,7 +34,7 @@ type Counts struct {
 	// the public type is a type alias for the internal type already.
 
 	// EvalVersion is the evaluator version which was used for the CUE evaluation,
-	// corresponding to one of the values under [cuelang.org/go/cue/cuecontext.EvalVersion].
+	// corresponding to one of the values under [github.com/sahroshan/cue/cue/cuecontext.EvalVersion].
 	EvalVersion internal.EvaluatorVersion
 
 	// Operation counters

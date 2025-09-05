@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol/command"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol/command"
 )
 
 var (

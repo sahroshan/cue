@@ -11,8 +11,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/test/integration/fake/glob"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration/fake/glob"
 )
 
 // ClientHooks are a set of optional hooks called during handling of

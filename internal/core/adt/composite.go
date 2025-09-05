@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"slices"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // TODO: unanswered questions about structural cycles:

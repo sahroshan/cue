@@ -21,7 +21,7 @@ import (
 	"slices"
 	"strings"
 
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/mod/semver"
 )
 
 // This contains experiments that are configured per file.

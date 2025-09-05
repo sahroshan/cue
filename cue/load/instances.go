@@ -24,17 +24,17 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/mod/modimports"
-	"cuelang.org/go/internal/mod/modload"
-	"cuelang.org/go/internal/mod/modpkgload"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/mod/modimports"
+	"github.com/sahroshan/cue/internal/mod/modload"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // Instances returns the instances named by the command line arguments 'args'.

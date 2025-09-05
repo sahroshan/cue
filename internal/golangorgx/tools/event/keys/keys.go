@@ -10,7 +10,7 @@ import (
 	"math"
 	"strconv"
 
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // Value represents a key for untyped values.

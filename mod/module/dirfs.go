@@ -4,8 +4,8 @@ import (
 	"io/fs"
 	"os"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/parser"
 )
 
 // SourceLoc represents the location of some CUE source code.

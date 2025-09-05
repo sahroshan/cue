@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 type compactPrinter struct {

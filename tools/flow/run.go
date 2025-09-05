@@ -30,11 +30,11 @@ import (
 	"os"
 	"slices"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/cuedebug"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/cuedebug"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 func (c *Controller) runLoop() {

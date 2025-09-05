@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"cuelang.org/go/cue/build"
+	"github.com/sahroshan/cue/cue/build"
 )
 
 func testdata(elems ...string) string {

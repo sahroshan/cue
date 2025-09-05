@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
 )
 
 // NOTE: This file provides an experimental API for serving multiple remote

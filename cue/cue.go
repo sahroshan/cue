@@ -15,17 +15,17 @@
 // Package cue is the main API for CUE evaluation.
 //
 // [Value] is the main type that represents CUE evaluations.
-// Values are created with a [cuelang.org/go/cue/cuecontext.Context].
+// Values are created with a [github.com/sahroshan/cue/cue/cuecontext.Context].
 // Only values created from the same Context can be involved in the same operation.
 // Values created from the same Context are not safe for concurrent use,
 // which we intend to change in the future.
 //
 // [Context] defines the set of active packages, the translations of field
 // names to unique codes, as well as the set of builtins.
-// Use [cuelang.org/go/cue/cuecontext.New] to create a new context.
+// Use [github.com/sahroshan/cue/cue/cuecontext.New] to create a new context.
 //
 // While a context can be used to build values, note that loading a module and its
-// dependencies should be done with the [cuelang.org/go/cue/load] package.
+// dependencies should be done with the [github.com/sahroshan/cue/cue/load] package.
 //
 // Note that the following types are DEPRECATED and their usage should be
 // avoided if possible:

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"text/tabwriter"
 
-	"cuelang.org/go/internal/golangorgx/tools/tool"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/tool"
 )
 
 // subcommands is a helper that may be embedded for commands that delegate to

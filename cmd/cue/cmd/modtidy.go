@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/internal/mod/modload"
-	"cuelang.org/go/mod/modfile"
+	"github.com/sahroshan/cue/internal/mod/modload"
+	"github.com/sahroshan/cue/mod/modfile"
 )
 
 func newModTidyCmd(c *Command) *cobra.Command {

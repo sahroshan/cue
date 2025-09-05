@@ -17,8 +17,8 @@ package cache
 import (
 	"fmt"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
 )
 
 // A WorkspaceFolder corresponds to an LSP Workspace Folder. A single

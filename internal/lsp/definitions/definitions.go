@@ -279,9 +279,9 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/lsp/rangeset"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/lsp/rangeset"
 )
 
 // DefinitionsForPackageFunc is a callback function used to resolve package definitions
@@ -523,7 +523,7 @@ func (fdfns *FileDefinitions) evalForOffset(offset int) {
 		}
 	}
 
-	//pkgNode.dump(1)
+	// pkgNode.dump(1)
 }
 
 // astNode corresponds to a node from the AST. An astNode can be

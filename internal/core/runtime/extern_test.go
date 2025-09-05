@@ -19,16 +19,16 @@ import (
 	"strconv"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 func Test(t *testing.T) {

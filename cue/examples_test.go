@@ -19,9 +19,9 @@ import (
 	"log"
 	"os"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 	"golang.org/x/tools/txtar"
 )
 

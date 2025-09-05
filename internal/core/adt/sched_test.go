@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/cuetest"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/cuetest"
 )
 
 // These states are used for testing. Each has a suffix of their corresponding

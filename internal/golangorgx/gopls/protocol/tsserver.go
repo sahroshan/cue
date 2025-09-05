@@ -13,7 +13,7 @@ package protocol
 import (
 	"context"
 
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
 )
 
 type Server interface {

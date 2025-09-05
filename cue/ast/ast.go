@@ -21,8 +21,8 @@ import (
 	"iter"
 	"strings"
 
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // ----------------------------------------------------------------------------

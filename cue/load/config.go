@@ -23,15 +23,15 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/mod/modconfig"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/mod/modconfig"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 const (

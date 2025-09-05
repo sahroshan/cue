@@ -13,14 +13,14 @@ import (
 	"slices"
 	"strings"
 
-	"cuelang.org/go/internal/buildattr"
-	"cuelang.org/go/internal/mod/modimports"
-	"cuelang.org/go/internal/mod/modpkgload"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/internal/par"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/buildattr"
+	"github.com/sahroshan/cue/internal/mod/modimports"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/par"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 const logging = false // TODO hook this up to CUE_DEBUG

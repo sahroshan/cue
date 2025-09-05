@@ -20,14 +20,14 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/core/adt"
 	"github.com/cockroachdb/apd/v3"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/astinternal"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // SelectorType represents the kind of a selector. It indicates both the label

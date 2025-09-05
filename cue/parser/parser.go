@@ -19,12 +19,12 @@ import (
 	"strings"
 	"unicode"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/scanner"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/cueexperiment"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/scanner"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/cueexperiment"
 )
 
 // The parser structure holds the parser's internal state.

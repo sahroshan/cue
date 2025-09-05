@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/filetypes/internal"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/filetypes/internal"
 )
 
 // Mode indicate the base mode of operation and indicates a different set of

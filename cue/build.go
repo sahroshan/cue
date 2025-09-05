@@ -15,10 +15,10 @@
 package cue
 
 import (
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/runtime"
 )
 
 // A Runtime is used for creating CUE Values.

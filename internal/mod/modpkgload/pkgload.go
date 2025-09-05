@@ -10,11 +10,11 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/modimports"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/internal/par"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/modimports"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/internal/par"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // Registry represents a module registry, or at least this package's view of it.

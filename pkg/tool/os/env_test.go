@@ -21,14 +21,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/task"
-	"cuelang.org/go/internal/value"
-	"cuelang.org/go/pkg/internal"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/task"
+	"github.com/sahroshan/cue/internal/value"
+	"github.com/sahroshan/cue/pkg/internal"
 )
 
 func TestGetenv(t *testing.T) {

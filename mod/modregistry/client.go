@@ -33,16 +33,16 @@ import (
 
 	"cuelabs.dev/go/oci/ociregistry"
 	"cuelabs.dev/go/oci/ociregistry/ociref"
-	"cuelang.org/go/internal/mod/semver"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
+	"github.com/sahroshan/cue/internal/mod/semver"
 	"golang.org/x/sync/errgroup"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
-	"cuelang.org/go/mod/modzip"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
+	"github.com/sahroshan/cue/mod/modzip"
 )
 
 var ErrNotFound = fmt.Errorf("module not found")

@@ -15,7 +15,7 @@ package command
 import (
 	"context"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 )
 
 // Interface defines the interface gopls exposes for the

@@ -14,7 +14,7 @@
 
 package cue
 
-import "cuelang.org/go/internal/cueversion"
+import "github.com/sahroshan/cue/internal/cueversion"
 
 // LanguageVersion returns the CUE language version.
 // This determines the latest version of CUE that

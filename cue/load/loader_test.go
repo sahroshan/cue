@@ -27,11 +27,11 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/tdtest"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/internal/tdtest"
 )
 
 func init() {
@@ -71,11 +71,11 @@ func TestLoad(t *testing.T) {
 		want: `err:    module: 2 errors in empty disjunction:
 module: conflicting values 123 and "" (mismatched types int and string):
     $CWD/testdata/badmod/cue.mod/module.cue:2:9
-    cuelang.org/go/mod/modfile/schema.cue:56:22
+    github.com/sahroshan/cue/mod/modfile/schema.cue:56:22
 module: conflicting values 123 and string (mismatched types int and string):
     $CWD/testdata/badmod/cue.mod/module.cue:2:9
-    cuelang.org/go/mod/modfile/schema.cue:56:12
-    cuelang.org/go/mod/modfile/schema.cue:98:12
+    github.com/sahroshan/cue/mod/modfile/schema.cue:56:12
+    github.com/sahroshan/cue/mod/modfile/schema.cue:98:12
 path:   ""
 module: ""
 root:   ""

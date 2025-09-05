@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/robustio"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/robustio"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // A FileHandle represents the URI, content (including parsed CUE),

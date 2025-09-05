@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/stats"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/tools/flow"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/stats"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/tools/flow"
 )
 
 // TestTasks tests the logic that determines which nodes are tasks and what are

@@ -41,7 +41,7 @@ func TestMain(m *testing.M) {
 			panic(err)
 		}
 		cachedGobin = filepath.Join(cacheDir, "cue-e2e-gobin")
-		cmd := exec.Command("go", "install", "cuelang.org/go/cmd/cue")
+		cmd := exec.Command("go", "install", "github.com/sahroshan/cue/cmd/cue")
 		cmd.Env = append(cmd.Environ(), "GOBIN="+cachedGobin)
 		out, err := cmd.CombinedOutput()
 		if err != nil {

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/file"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/file"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 	"golang.org/x/tools/go/analysis"
 )
 

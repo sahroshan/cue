@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"testing"
 
-	"cuelang.org/go/internal/tdtest"
+	"github.com/sahroshan/cue/internal/tdtest"
 )
 
 const (

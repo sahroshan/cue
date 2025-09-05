@@ -169,7 +169,7 @@ import (
 	"math"
 	"slices"
 
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 type defID uint32

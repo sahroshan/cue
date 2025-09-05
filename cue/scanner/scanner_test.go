@@ -22,8 +22,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 const /* class */ (
@@ -283,7 +283,7 @@ func TestScan(t *testing.T) {
 		case token.COMMENT:
 			// no CRs in comments
 			elit = string(stripCR([]byte(e.lit)))
-			//-style comment literal doesn't contain newline
+			// -style comment literal doesn't contain newline
 			if elit[1] == '/' {
 				elit = elit[0 : len(elit)-1]
 			}

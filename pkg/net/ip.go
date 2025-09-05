@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"net/netip"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 // IP address lengths (bytes).

@@ -10,9 +10,9 @@ import (
 	"io"
 	"sync"
 
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/core"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/core"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // LogWriter returns an Exporter that logs events to the supplied writer.

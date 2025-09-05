@@ -22,12 +22,12 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/encoding/openapi"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/encoding/openapi"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 )
 
 var (

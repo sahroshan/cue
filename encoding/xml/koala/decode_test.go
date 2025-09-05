@@ -20,12 +20,12 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/encoding/xml/koala"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/encoding/xml/koala"
 )
 
 func TestErrorReporting(t *testing.T) {
@@ -149,7 +149,7 @@ func TestErrorReporting(t *testing.T) {
 			// compile some CUE into a Value
 			compiledSchema := c.CompileString(test.cueConstraints, cue.Filename("schema.cue"))
 
-			//unify the compiledSchema against the formattedConfig
+			// unify the compiledSchema against the formattedConfig
 			unified := compiledSchema.Unify(rootCueVal)
 
 			actualError := ""

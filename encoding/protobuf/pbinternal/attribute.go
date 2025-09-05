@@ -19,7 +19,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 type CompositeType int

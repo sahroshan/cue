@@ -1,5 +1,5 @@
 // Package cueversion provides access to the version of the
-// cuelang.org/go module.
+// github.com/sahroshan/cue module.
 package cueversion
 
 import (
@@ -17,7 +17,7 @@ func LanguageVersion() string {
 	return "v0.15.0"
 }
 
-// ModuleVersion returns the version of the cuelang.org/go module as best as can
+// ModuleVersion returns the version of the github.com/sahroshan/cue module as best as can
 // reasonably be determined. This is provided for informational
 // and debugging purposes and should not be used to predicate
 // version-specific behavior.
@@ -25,7 +25,7 @@ func ModuleVersion() string {
 	return moduleVersionOnce()
 }
 
-const cueModule = "cuelang.org/go"
+const cueModule = "github.com/sahroshan/cue"
 
 var moduleVersionOnce = sync.OnceValue(func() string {
 	bi, ok := debug.ReadBuildInfo()
@@ -60,14 +60,14 @@ func findCUEModule(bi *debug.BuildInfo) *debug.Module {
 
 // UserAgent returns a string suitable for adding as the User-Agent
 // header in an HTTP agent. The clientType argument specifies
-// how CUE is being used: if this is empty it defaults to "cuelang.org/go".
+// how CUE is being used: if this is empty it defaults to "github.com/sahroshan/cue".
 //
 // Example:
 //
-//	Cue/v0.8.0 (cuelang.org/go; vxXXX) Go/go1.22.0 (linux/amd64)
+//	Cue/v0.8.0 (github.com/sahroshan/cue; vxXXX) Go/go1.22.0 (linux/amd64)
 func UserAgent(clientType string) string {
 	if clientType == "" {
-		clientType = "cuelang.org/go"
+		clientType = "github.com/sahroshan/cue"
 	}
 	// The Go version can contain spaces, but we don't want spaces inside
 	// Component/Version pair, so replace them with underscores.

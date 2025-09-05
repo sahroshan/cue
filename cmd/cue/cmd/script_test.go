@@ -46,15 +46,15 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/cuedebug"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/cueversion"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/modregistrytest"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/cuedebug"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/internal/cueversion"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/modregistrytest"
 )
 
 // TestLatest checks that the examples match the latest language standard,

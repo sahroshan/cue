@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
 )
 
 // Options returns the current server options.

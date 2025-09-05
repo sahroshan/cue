@@ -20,11 +20,11 @@ import (
 	"io"
 	"sync"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // A Context provides context for running a task.

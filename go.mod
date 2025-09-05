@@ -1,4 +1,4 @@
-module cuelang.org/go
+module github.com/sahroshan/cue
 
 go 1.24.0
 
@@ -38,6 +38,6 @@ require (
 )
 
 tool (
-	cuelang.org/go/cmd/cue
+	github.com/sahroshan/cue/cmd/cue
 	golang.org/x/tools/cmd/stringer
 )

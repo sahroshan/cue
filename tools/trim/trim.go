@@ -17,8 +17,8 @@ package trim
 import (
 	"io"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 // Config configures trim options.

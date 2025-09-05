@@ -16,8 +16,8 @@
 package dep
 
 import (
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // Dependencies

@@ -17,9 +17,9 @@ package cue
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/export"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/export"
 )
 
 // Attribute returns the attribute data for the given key.

@@ -24,12 +24,12 @@ import (
 	"github.com/opencontainers/go-digest"
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/internal/mod/modload"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/modconfig"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/mod/modload"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/modconfig"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 func newModMirrorCmd(c *Command) *cobra.Command {

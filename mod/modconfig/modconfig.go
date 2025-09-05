@@ -18,14 +18,14 @@ import (
 	"cuelabs.dev/go/oci/ociregistry/ociclient"
 	"golang.org/x/oauth2"
 
-	"cuelang.org/go/internal/cueconfig"
-	"cuelang.org/go/internal/cueversion"
-	"cuelang.org/go/internal/mod/modload"
-	"cuelang.org/go/internal/mod/modpkgload"
-	"cuelang.org/go/internal/mod/modresolve"
-	"cuelang.org/go/mod/modcache"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/internal/cueconfig"
+	"github.com/sahroshan/cue/internal/cueversion"
+	"github.com/sahroshan/cue/internal/mod/modload"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/internal/mod/modresolve"
+	"github.com/sahroshan/cue/mod/modcache"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // Registry is used to access CUE modules from external sources.
@@ -96,7 +96,7 @@ type Config struct {
 
 	// ClientType is used as part of the User-Agent header
 	// that's added in each outgoing HTTP request.
-	// If it's empty, it defaults to "cuelang.org/go".
+	// If it's empty, it defaults to "github.com/sahroshan/cue".
 	ClientType string
 }
 

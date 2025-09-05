@@ -98,17 +98,17 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/encoding"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/value"
-	pkgpath "cuelang.org/go/pkg/path"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/encoding"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/value"
+	pkgpath "github.com/sahroshan/cue/pkg/path"
 )
 
 // TODO: record files in build.Instance
@@ -117,12 +117,12 @@ import (
 type interpreter struct{}
 
 // Note that [cuecontext.ExternInterpreter] is just an alias for [runtime.Interpreter]
-// but because the [cuelang.org/go/cue/cuecontext] package depends on embedding
+// but because the [github.com/sahroshan/cue/cue/cuecontext] package depends on embedding
 // we cannot refer to that type directly.
 
 // New returns a new interpreter for embedded files as a
-// [cuelang.org/go/cue/cuecontext.ExternInterpreter] suitable for
-// passing to [cuelang.org/go/cue/cuecontext.New].
+// [github.com/sahroshan/cue/cue/cuecontext.ExternInterpreter] suitable for
+// passing to [github.com/sahroshan/cue/cue/cuecontext.New].
 func New() runtime.Interpreter {
 	return interpreter{}
 }

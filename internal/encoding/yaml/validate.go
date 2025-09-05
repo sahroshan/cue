@@ -18,10 +18,10 @@ import (
 	"errors"
 	"io"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/pkg"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // Validate validates YAML and confirms it is an instance of schema.

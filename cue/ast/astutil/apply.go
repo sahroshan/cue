@@ -20,7 +20,7 @@ import (
 	"hash/fnv"
 	"reflect"
 
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 // A Cursor describes a node encountered during Apply.

@@ -19,7 +19,7 @@ import (
 
 	"github.com/pelletier/go-toml/v2"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 // TODO(mvdan): encode options

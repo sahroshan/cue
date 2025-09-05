@@ -6,11 +6,11 @@ cmp stdout stdout.golden
 -- go.mod --
 module mod.example
 
-require cuelang.org/go v0.11.1
+require github.com/sahroshan/cue v0.11.1
 -- deps.go --
 package deps
 
-import _ "cuelang.org/go/cmd/cue"
+import _ "github.com/sahroshan/cue/cmd/cue"
 -- cue.mod/module.cue --
 module: "example.com/def"
 language: {

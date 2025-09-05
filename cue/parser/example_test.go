@@ -17,7 +17,7 @@ package parser_test
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/parser"
+	"github.com/sahroshan/cue/cue/parser"
 )
 
 func ExampleParseFile() {

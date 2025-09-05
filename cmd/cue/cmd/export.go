@@ -17,8 +17,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/internal/encoding"
-	"cuelang.org/go/internal/filetypes"
+	"github.com/sahroshan/cue/internal/encoding"
+	"github.com/sahroshan/cue/internal/filetypes"
 )
 
 // newExportCmd creates and export command

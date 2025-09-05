@@ -17,7 +17,7 @@ package compile
 // This file contains validator and other non-monotonic builtins.
 
 import (
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // matchN is a validator that checks that the number of schemas in the given

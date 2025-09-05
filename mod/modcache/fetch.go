@@ -14,12 +14,12 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/internal/par"
-	"cuelang.org/go/internal/robustio"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/module"
-	"cuelang.org/go/mod/modzip"
+	"github.com/sahroshan/cue/internal/par"
+	"github.com/sahroshan/cue/internal/robustio"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/module"
+	"github.com/sahroshan/cue/mod/modzip"
 )
 
 const logging = false // TODO hook this up to CUE_DEBUG
@@ -65,7 +65,7 @@ func (c *Cache) Requirements(ctx context.Context, mv module.Version) ([]module.V
 	return mf.DepVersions(), nil
 }
 
-// FetchFromCache implements [cuelang.org/go/mod/modconfig.CachedRegistry].
+// FetchFromCache implements [github.com/sahroshan/cue/mod/modconfig.CachedRegistry].
 func (c *Cache) FetchFromCache(mv module.Version) (module.SourceLoc, error) {
 	dir, err := c.downloadDir(mv)
 	if err != nil {

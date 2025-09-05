@@ -9,9 +9,9 @@ import (
 	"errors"
 	"fmt"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
 )
 
 // AddFolders gets called from Initialized, and from

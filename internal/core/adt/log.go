@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"strings"
 
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // Assertf panics if the condition is false. Assertf can be used to check for

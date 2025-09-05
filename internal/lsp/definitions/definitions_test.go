@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/lsp/definitions"
-	"cuelang.org/go/internal/lsp/rangeset"
 	"github.com/go-quicktest/qt"
 	"github.com/rogpeppe/go-internal/txtar"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/lsp/definitions"
+	"github.com/sahroshan/cue/internal/lsp/rangeset"
 )
 
 func TestDefinitions(t *testing.T) {

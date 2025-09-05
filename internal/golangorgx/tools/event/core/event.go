@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // Event holds the information about an event of note that occurred.

@@ -19,13 +19,13 @@ import (
 	"strings"
 	"sync"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	coreruntime "cuelang.org/go/internal/core/runtime"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/core/adt"
+	coreruntime "github.com/sahroshan/cue/internal/core/runtime"
 )
 
 // interpreter is a [cuecontext.ExternInterpreter] for Wasm files.

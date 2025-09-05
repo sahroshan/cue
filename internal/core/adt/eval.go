@@ -20,9 +20,9 @@ package adt
 //
 
 import (
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/stats"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/stats"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // TODO TODO TODO TODO TODO TODO  TODO TODO TODO  TODO TODO TODO  TODO TODO TODO
@@ -249,8 +249,8 @@ type nodeContext struct {
 	// evalv2: keeps track of all current usages of the node, such that the
 	//    node can be freed when the counter reaches zero.
 	// evalv3: keeps track of the number points in the code where this
-	//.   nodeContext is used for processing. A nodeContext that is being
-	//.   processed may not be freed yet.
+	// .   nodeContext is used for processing. A nodeContext that is being
+	// .   processed may not be freed yet.
 	refCount int
 
 	// isDisjunct indicates whether this nodeContext is used in a disjunction.

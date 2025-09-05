@@ -36,10 +36,10 @@ import (
 	"regexp"
 	"testing"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/scanner"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/source"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/scanner"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/source"
 )
 
 func getPos(f *token.File, offset int) token.Pos {

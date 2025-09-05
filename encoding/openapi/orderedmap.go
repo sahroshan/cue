@@ -15,7 +15,7 @@
 package openapi
 
 import (
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 // An orderedMap is a set of key-value pairs that preserves the order in which

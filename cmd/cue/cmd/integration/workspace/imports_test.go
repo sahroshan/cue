@@ -4,12 +4,12 @@ import (
 	"io/fs"
 	"testing"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	. "cuelang.org/go/internal/golangorgx/gopls/test/integration"
-	"cuelang.org/go/internal/lsp/cache"
-	"cuelang.org/go/mod/modcache"
-	"cuelang.org/go/mod/modconfig"
-	"cuelang.org/go/mod/modregistrytest"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	. "github.com/sahroshan/cue/internal/golangorgx/gopls/test/integration"
+	"github.com/sahroshan/cue/internal/lsp/cache"
+	"github.com/sahroshan/cue/mod/modcache"
+	"github.com/sahroshan/cue/mod/modconfig"
+	"github.com/sahroshan/cue/mod/modregistrytest"
 
 	"github.com/go-quicktest/qt"
 	"golang.org/x/tools/txtar"

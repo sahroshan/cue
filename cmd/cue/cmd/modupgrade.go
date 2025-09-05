@@ -19,11 +19,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/tools/fix"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/tools/fix"
 	"github.com/spf13/cobra"
 )
 

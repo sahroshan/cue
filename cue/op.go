@@ -15,7 +15,7 @@
 package cue
 
 import (
-	"cuelang.org/go/internal/core/adt"
+	"github.com/sahroshan/cue/internal/core/adt"
 )
 
 // Op indicates the operation at the top of an expression tree of the expression

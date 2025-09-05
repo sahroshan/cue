@@ -28,7 +28,7 @@ import (
 	"slices"
 	"strings"
 
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // New is a convenience wrapper for [errors.New] in the core library.

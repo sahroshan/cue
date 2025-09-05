@@ -17,13 +17,13 @@ package jsonpb_test
 import (
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/encoding/protobuf/jsonpb"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/encoding/protobuf/jsonpb"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 )
 
 func TestEncoder(t *testing.T) {

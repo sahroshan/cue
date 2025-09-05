@@ -71,7 +71,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"cuelang.org/go/internal/golangorgx/gopls/util/safetoken"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/util/safetoken"
 )
 
 // A Mapper wraps the content of a file and provides mapping

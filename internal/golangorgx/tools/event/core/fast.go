@@ -7,8 +7,8 @@ package core
 import (
 	"context"
 
-	"cuelang.org/go/internal/golangorgx/tools/event/keys"
-	"cuelang.org/go/internal/golangorgx/tools/event/label"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/keys"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/label"
 )
 
 // Log1 takes a message and one label delivers a log event to the exporter.

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
 )
 
 func TestAPI(t *testing.T) {

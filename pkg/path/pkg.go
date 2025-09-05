@@ -15,8 +15,8 @@
 package path
 
 import (
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
+	"github.com/sahroshan/cue/internal/core/adt"
+	"github.com/sahroshan/cue/internal/pkg"
 )
 
 func init() {

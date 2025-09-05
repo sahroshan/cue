@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal/core/eval"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 	"golang.org/x/tools/txtar"
 )
 

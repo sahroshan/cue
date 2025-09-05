@@ -19,14 +19,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
-	"cuelang.org/go/internal/golangorgx/gopls/protocol/command"
-	"cuelang.org/go/internal/golangorgx/gopls/settings"
-	"cuelang.org/go/internal/golangorgx/tools/event"
-	"cuelang.org/go/internal/golangorgx/tools/event/tag"
-	"cuelang.org/go/internal/golangorgx/tools/jsonrpc2"
-	"cuelang.org/go/internal/lsp/cache"
-	"cuelang.org/go/internal/lsp/server"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol/command"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/settings"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/event/tag"
+	"github.com/sahroshan/cue/internal/golangorgx/tools/jsonrpc2"
+	"github.com/sahroshan/cue/internal/lsp/cache"
+	"github.com/sahroshan/cue/internal/lsp/server"
 )
 
 // Unique identifiers for client/server.

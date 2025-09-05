@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/mod/modfile"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/mod/modfile"
 )
 
 func TestInstances(t *testing.T) {

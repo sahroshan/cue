@@ -15,8 +15,8 @@
 package cmd
 
 import (
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/internal/encoding/gotypes"
+	"github.com/sahroshan/cue/cue/load"
+	"github.com/sahroshan/cue/internal/encoding/gotypes"
 
 	"github.com/spf13/cobra"
 )

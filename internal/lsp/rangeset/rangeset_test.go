@@ -17,8 +17,8 @@ package rangeset_test
 import (
 	"testing"
 
-	"cuelang.org/go/internal/lsp/rangeset"
 	"github.com/go-quicktest/qt"
+	"github.com/sahroshan/cue/internal/lsp/rangeset"
 )
 
 func TestAdd(t *testing.T) {

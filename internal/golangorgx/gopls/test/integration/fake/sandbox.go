@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/internal/robustio"
+	"github.com/sahroshan/cue/internal/robustio"
 	"golang.org/x/tools/txtar"
 )
 

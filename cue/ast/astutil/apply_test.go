@@ -20,11 +20,11 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 func TestApply(t *testing.T) {

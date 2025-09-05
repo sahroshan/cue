@@ -19,10 +19,10 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // See https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md#data-types

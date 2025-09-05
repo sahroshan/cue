@@ -25,8 +25,8 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
 )
 
 // Config defines options for generation Go code.

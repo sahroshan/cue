@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"cuelang.org/go/internal/golangorgx/gopls/protocol"
+	"github.com/sahroshan/cue/internal/golangorgx/gopls/protocol"
 )
 
 // parseSpan returns the location represented by the input.

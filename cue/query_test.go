@@ -18,11 +18,11 @@ import (
 	"bytes"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/cuetdtest"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/internal/diff"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/cuecontext"
+	"github.com/sahroshan/cue/internal/cuetdtest"
+	"github.com/sahroshan/cue/internal/cuetxtar"
+	"github.com/sahroshan/cue/internal/diff"
 	"golang.org/x/tools/txtar"
 )
 

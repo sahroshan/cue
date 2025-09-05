@@ -13,10 +13,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/mod/modcache"
-	"cuelang.org/go/mod/modfile"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/mod/modcache"
+	"github.com/sahroshan/cue/mod/modfile"
 )
 
 func TestUpdateVersions(t *testing.T) {

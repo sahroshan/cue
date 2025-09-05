@@ -23,8 +23,8 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/format"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/format"
 )
 
 func TestExtract(t *testing.T) {

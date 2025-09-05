@@ -17,9 +17,9 @@ package format
 import (
 	"strconv"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/internal"
 )
 
 // labelSimplifier rewrites string labels to identifiers if

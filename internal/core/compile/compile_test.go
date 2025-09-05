@@ -20,12 +20,12 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/internal/core/compile"
+	"github.com/sahroshan/cue/internal/core/debug"
+	"github.com/sahroshan/cue/internal/core/runtime"
+	"github.com/sahroshan/cue/internal/cuetxtar"
 )
 
 var (

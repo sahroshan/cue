@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 var (

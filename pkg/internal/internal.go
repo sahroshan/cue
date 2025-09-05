@@ -15,8 +15,8 @@
 package internal
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/internal/core/runtime"
 )
 
 // NewContext replaces cuecontext.New, since pkg/... can't use it due to import cycles.

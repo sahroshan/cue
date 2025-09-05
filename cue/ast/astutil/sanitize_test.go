@@ -17,10 +17,10 @@ package astutil_test
 import (
 	"testing"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/ast/astutil"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/internal"
 
 	"github.com/go-quicktest/qt"
 )

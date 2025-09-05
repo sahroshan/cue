@@ -20,8 +20,8 @@ import (
 	"path"
 	"sync"
 
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 type modFileCache struct {

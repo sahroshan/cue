@@ -738,14 +738,14 @@ var GeneratedAPIJSON = &APIJSON{
 			Title:     "Apply a fix",
 			Doc:       "Applies a fix to a region of source code.",
 			ArgDoc:    "{\n\t// The name of the fix to apply.\n\t//\n\t// For fixes suggested by analyzers, this is a string constant\n\t// advertised by the analyzer that matches the Category of\n\t// the analysis.Diagnostic with a SuggestedFix containing no edits.\n\t//\n\t// For fixes suggested by code actions, this is a string agreed\n\t// upon by the code action and golang.ApplyFix.\n\t\"Fix\": string,\n\t// The file URI for the document to fix.\n\t\"URI\": string,\n\t// The document range to scan for fixes.\n\t\"Range\": {\n\t\t\"start\": {\n\t\t\t\"line\": uint32,\n\t\t\t\"character\": uint32,\n\t\t},\n\t\t\"end\": {\n\t\t\t\"line\": uint32,\n\t\t\t\"character\": uint32,\n\t\t},\n\t},\n\t// Whether to resolve and return the edits.\n\t\"ResolveEdits\": bool,\n}",
-			ResultDoc: "{\n\t// Holds changes to existing resources.\n\t\"changes\": map[cuelang.org/go/internal/golangorgx/gopls/protocol.DocumentURI][]cuelang.org/go/internal/golangorgx/gopls/protocol.TextEdit,\n\t// Depending on the client capability `workspace.workspaceEdit.resourceOperations` document changes\n\t// are either an array of `TextDocumentEdit`s to express changes to n different text documents\n\t// where each text document edit addresses a specific version of a text document. Or it can contain\n\t// above `TextDocumentEdit`s mixed with create, rename and delete file / folder operations.\n\t//\n\t// Whether a client supports versioned document edits is expressed via\n\t// `workspace.workspaceEdit.documentChanges` client capability.\n\t//\n\t// If a client neither supports `documentChanges` nor `workspace.workspaceEdit.resourceOperations` then\n\t// only plain `TextEdit`s using the `changes` property are supported.\n\t\"documentChanges\": []{\n\t\t\"TextDocumentEdit\": {\n\t\t\t\"textDocument\": { ... },\n\t\t\t\"edits\": { ... },\n\t\t},\n\t\t\"RenameFile\": {\n\t\t\t\"kind\": string,\n\t\t\t\"oldUri\": string,\n\t\t\t\"newUri\": string,\n\t\t\t\"options\": { ... },\n\t\t\t\"ResourceOperation\": { ... },\n\t\t},\n\t},\n\t// A map of change annotations that can be referenced in `AnnotatedTextEdit`s or create, rename and\n\t// delete file / folder operations.\n\t//\n\t// Whether clients honor this property depends on the client capability `workspace.changeAnnotationSupport`.\n\t//\n\t// @since 3.16.0\n\t\"changeAnnotations\": map[string]cuelang.org/go/internal/golangorgx/gopls/protocol.ChangeAnnotation,\n}",
+			ResultDoc: "{\n\t// Holds changes to existing resources.\n\t\"changes\": map[github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.DocumentURI][]github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.TextEdit,\n\t// Depending on the client capability `workspace.workspaceEdit.resourceOperations` document changes\n\t// are either an array of `TextDocumentEdit`s to express changes to n different text documents\n\t// where each text document edit addresses a specific version of a text document. Or it can contain\n\t// above `TextDocumentEdit`s mixed with create, rename and delete file / folder operations.\n\t//\n\t// Whether a client supports versioned document edits is expressed via\n\t// `workspace.workspaceEdit.documentChanges` client capability.\n\t//\n\t// If a client neither supports `documentChanges` nor `workspace.workspaceEdit.resourceOperations` then\n\t// only plain `TextEdit`s using the `changes` property are supported.\n\t\"documentChanges\": []{\n\t\t\"TextDocumentEdit\": {\n\t\t\t\"textDocument\": { ... },\n\t\t\t\"edits\": { ... },\n\t\t},\n\t\t\"RenameFile\": {\n\t\t\t\"kind\": string,\n\t\t\t\"oldUri\": string,\n\t\t\t\"newUri\": string,\n\t\t\t\"options\": { ... },\n\t\t\t\"ResourceOperation\": { ... },\n\t\t},\n\t},\n\t// A map of change annotations that can be referenced in `AnnotatedTextEdit`s or create, rename and\n\t// delete file / folder operations.\n\t//\n\t// Whether clients honor this property depends on the client capability `workspace.changeAnnotationSupport`.\n\t//\n\t// @since 3.16.0\n\t\"changeAnnotations\": map[string]github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.ChangeAnnotation,\n}",
 		},
 		{
 			Command:   "gopls.change_signature",
 			Title:     "Perform a \"change signature\" refactoring",
 			Doc:       "This command is experimental, currently only supporting parameter removal.\nIts signature will certainly change in the future (pun intended).",
 			ArgDoc:    "{\n\t\"RemoveParameter\": {\n\t\t\"uri\": string,\n\t\t\"range\": {\n\t\t\t\"start\": { ... },\n\t\t\t\"end\": { ... },\n\t\t},\n\t},\n\t// Whether to resolve and return the edits.\n\t\"ResolveEdits\": bool,\n}",
-			ResultDoc: "{\n\t// Holds changes to existing resources.\n\t\"changes\": map[cuelang.org/go/internal/golangorgx/gopls/protocol.DocumentURI][]cuelang.org/go/internal/golangorgx/gopls/protocol.TextEdit,\n\t// Depending on the client capability `workspace.workspaceEdit.resourceOperations` document changes\n\t// are either an array of `TextDocumentEdit`s to express changes to n different text documents\n\t// where each text document edit addresses a specific version of a text document. Or it can contain\n\t// above `TextDocumentEdit`s mixed with create, rename and delete file / folder operations.\n\t//\n\t// Whether a client supports versioned document edits is expressed via\n\t// `workspace.workspaceEdit.documentChanges` client capability.\n\t//\n\t// If a client neither supports `documentChanges` nor `workspace.workspaceEdit.resourceOperations` then\n\t// only plain `TextEdit`s using the `changes` property are supported.\n\t\"documentChanges\": []{\n\t\t\"TextDocumentEdit\": {\n\t\t\t\"textDocument\": { ... },\n\t\t\t\"edits\": { ... },\n\t\t},\n\t\t\"RenameFile\": {\n\t\t\t\"kind\": string,\n\t\t\t\"oldUri\": string,\n\t\t\t\"newUri\": string,\n\t\t\t\"options\": { ... },\n\t\t\t\"ResourceOperation\": { ... },\n\t\t},\n\t},\n\t// A map of change annotations that can be referenced in `AnnotatedTextEdit`s or create, rename and\n\t// delete file / folder operations.\n\t//\n\t// Whether clients honor this property depends on the client capability `workspace.changeAnnotationSupport`.\n\t//\n\t// @since 3.16.0\n\t\"changeAnnotations\": map[string]cuelang.org/go/internal/golangorgx/gopls/protocol.ChangeAnnotation,\n}",
+			ResultDoc: "{\n\t// Holds changes to existing resources.\n\t\"changes\": map[github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.DocumentURI][]github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.TextEdit,\n\t// Depending on the client capability `workspace.workspaceEdit.resourceOperations` document changes\n\t// are either an array of `TextDocumentEdit`s to express changes to n different text documents\n\t// where each text document edit addresses a specific version of a text document. Or it can contain\n\t// above `TextDocumentEdit`s mixed with create, rename and delete file / folder operations.\n\t//\n\t// Whether a client supports versioned document edits is expressed via\n\t// `workspace.workspaceEdit.documentChanges` client capability.\n\t//\n\t// If a client neither supports `documentChanges` nor `workspace.workspaceEdit.resourceOperations` then\n\t// only plain `TextEdit`s using the `changes` property are supported.\n\t\"documentChanges\": []{\n\t\t\"TextDocumentEdit\": {\n\t\t\t\"textDocument\": { ... },\n\t\t\t\"edits\": { ... },\n\t\t},\n\t\t\"RenameFile\": {\n\t\t\t\"kind\": string,\n\t\t\t\"oldUri\": string,\n\t\t\t\"newUri\": string,\n\t\t\t\"options\": { ... },\n\t\t\t\"ResourceOperation\": { ... },\n\t\t},\n\t},\n\t// A map of change annotations that can be referenced in `AnnotatedTextEdit`s or create, rename and\n\t// delete file / folder operations.\n\t//\n\t// Whether clients honor this property depends on the client capability `workspace.changeAnnotationSupport`.\n\t//\n\t// @since 3.16.0\n\t\"changeAnnotations\": map[string]github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.ChangeAnnotation,\n}",
 		},
 		{
 			Command: "gopls.check_upgrades",
@@ -770,7 +770,7 @@ var GeneratedAPIJSON = &APIJSON{
 			Title:     "Get known vulncheck result",
 			Doc:       "Fetch the result of latest vulnerability check (`govulncheck`).",
 			ArgDoc:    "{\n\t// The file URI.\n\t\"URI\": string,\n}",
-			ResultDoc: "map[cuelang.org/go/internal/golangorgx/gopls/protocol.DocumentURI]*cuelang.org/go/internal/golangorgx/gopls/vulncheck.Result",
+			ResultDoc: "map[github.com/sahroshan/cue/internal/golangorgx/gopls/protocol.DocumentURI]*github.com/sahroshan/cue/internal/golangorgx/gopls/vulncheck.Result",
 		},
 		{
 			Command: "gopls.gc_details",
@@ -1040,7 +1040,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "deprecated",
 			Doc:     "check for use of deprecated identifiers\n\nThe deprecated analyzer looks for deprecated symbols and package\nimports.\n\nSee https://go.dev/wiki/Deprecated to learn about Go's convention\nfor documenting and signaling deprecated identifiers.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/deprecated",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/deprecated",
 			Default: true,
 		},
 		{
@@ -1052,7 +1052,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "embed",
 			Doc:     "check //go:embed directive usage\n\nThis analyzer checks that the embed package is imported if //go:embed\ndirectives are present, providing a suggested fix to add the import if\nit is missing.\n\nThis analyzer also checks that //go:embed directives precede the\ndeclaration of a single variable.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/embeddirective",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/embeddirective",
 			Default: true,
 		},
 		{
@@ -1069,7 +1069,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "fillreturns",
 			Doc:     "suggest fixes for errors due to an incorrect number of return values\n\nThis checker provides suggested fixes for type errors of the\ntype \"wrong number of return values (want %d, got %d)\". For example:\n\n\tfunc m() (int, string, *bool, error) {\n\t\treturn\n\t}\n\nwill turn into\n\n\tfunc m() (int, string, *bool, error) {\n\t\treturn 0, \"\", nil, nil\n\t}\n\nThis functionality is similar to https://github.com/sqs/goreturns.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/fillreturns",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/fillreturns",
 			Default: true,
 		},
 		{
@@ -1087,7 +1087,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "infertypeargs",
 			Doc:     "check for unnecessary type arguments in call expressions\n\nExplicit type arguments may be omitted from call expressions if they can be\ninferred from function arguments, or from other type arguments:\n\n\tfunc f[T any](T) {}\n\t\n\tfunc _() {\n\t\tf[string](\"foo\") // string could be inferred\n\t}\n",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/infertypeargs",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/infertypeargs",
 			Default: true,
 		},
 		{
@@ -1117,13 +1117,13 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "nonewvars",
 			Doc:     "suggested fixes for \"no new vars on left side of :=\"\n\nThis checker provides suggested fixes for type errors of the\ntype \"no new vars on left side of :=\". For example:\n\n\tz := 1\n\tz := 2\n\nwill turn into\n\n\tz := 1\n\tz = 2",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/nonewvars",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/nonewvars",
 			Default: true,
 		},
 		{
 			Name:    "noresultvalues",
 			Doc:     "suggested fixes for unexpected return values\n\nThis checker provides suggested fixes for type errors of the\ntype \"no result values expected\" or \"too many return values\".\nFor example:\n\n\tfunc z() { return nil }\n\nwill turn into\n\n\tfunc z() { return }",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/noresultvars",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/noresultvars",
 			Default: true,
 		},
 		{
@@ -1146,19 +1146,19 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "simplifycompositelit",
 			Doc:     "check for composite literal simplifications\n\nAn array, slice, or map composite literal of the form:\n\n\t[]T{T{}, T{}}\n\nwill be simplified to:\n\n\t[]T{{}, {}}\n\nThis is one of the simplifications that \"gofmt -s\" applies.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/simplifycompositelit",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/simplifycompositelit",
 			Default: true,
 		},
 		{
 			Name:    "simplifyrange",
 			Doc:     "check for range statement simplifications\n\nA range of the form:\n\n\tfor x, _ = range v {...}\n\nwill be simplified to:\n\n\tfor x = range v {...}\n\nA range of the form:\n\n\tfor _ = range v {...}\n\nwill be simplified to:\n\n\tfor range v {...}\n\nThis is one of the simplifications that \"gofmt -s\" applies.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/simplifyrange",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/simplifyrange",
 			Default: true,
 		},
 		{
 			Name:    "simplifyslice",
 			Doc:     "check for slice simplifications\n\nA slice expression of the form:\n\n\ts[a:len(s)]\n\nwill be simplified to:\n\n\ts[a:]\n\nThis is one of the simplifications that \"gofmt -s\" applies.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/simplifyslice",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/simplifyslice",
 			Default: true,
 		},
 		{
@@ -1194,7 +1194,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "stubmethods",
 			Doc:     "detect missing methods and fix with stub implementations\n\nThis analyzer detects type-checking errors due to missing methods\nin assignments from concrete types to interface types, and offers\na suggested fix that will create a set of stub methods so that\nthe concrete type satisfies the interface.\n\nFor example, this function will not compile because the value\nNegativeErr{} does not implement the \"error\" interface:\n\n\tfunc sqrt(x float64) (float64, error) {\n\t\tif x < 0 {\n\t\t\treturn 0, NegativeErr{} // error: missing method\n\t\t}\n\t\t...\n\t}\n\n\ttype NegativeErr struct{}\n\nThis analyzer will suggest a fix to declare this method:\n\n\t// Error implements error.Error.\n\tfunc (NegativeErr) Error() string {\n\t\tpanic(\"unimplemented\")\n\t}\n\n(At least, it appears to behave that way, but technically it\ndoesn't use the SuggestedFix mechanism and the stub is created by\nlogic in gopls's golang.stub function.)",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/stubmethods",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/stubmethods",
 			Default: true,
 		},
 		{
@@ -1218,7 +1218,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "undeclaredname",
 			Doc:     "suggested fixes for \"undeclared name: <>\"\n\nThis checker provides suggested fixes for type errors of the\ntype \"undeclared name: <>\". It will either insert a new statement,\nsuch as:\n\n\t<> :=\n\nor a new function declaration, such as:\n\n\tfunc <>(inferred parameters) {\n\t\tpanic(\"implement me!\")\n\t}",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/undeclaredname",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/undeclaredname",
 			Default: true,
 		},
 		{
@@ -1242,7 +1242,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name:    "unusedparams",
 			Doc:     "check for unused parameters of functions\n\nThe unusedparams analyzer checks functions to see if there are\nany parameters that are not being used.\n\nTo ensure soundness, it ignores:\n  - \"address-taken\" functions, that is, functions that are used as\n    a value rather than being called directly; their signatures may\n    be required to conform to a func type.\n  - exported functions or methods, since they may be address-taken\n    in another package.\n  - unexported methods whose name matches an interface method\n    declared in the same package, since the method's signature\n    may be required to conform to the interface type.\n  - functions with empty bodies, or containing just a call to panic.\n  - parameters that are unnamed, or named \"_\", the blank identifier.\n\nThe analyzer suggests a fix of replacing the parameter name by \"_\",\nbut in such cases a deeper fix can be obtained by invoking the\n\"Refactor: remove unused parameter\" code action, which will\neliminate the parameter entirely, along with all corresponding\narguments at call sites, while taking care to preserve any side\neffects in the argument expressions; see\nhttps://github.com/golang/tools/releases/tag/gopls%2Fv0.14.",
-			URL:     "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/unusedparams",
+			URL:     "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/unusedparams",
 			Default: true,
 		},
 		{
@@ -1254,7 +1254,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name: "unusedvariable",
 			Doc:  "check for unused variables and suggest fixes",
-			URL:  "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/unusedvariable",
+			URL:  "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/unusedvariable",
 		},
 		{
 			Name: "unusedwrite",
@@ -1264,7 +1264,7 @@ var GeneratedAPIJSON = &APIJSON{
 		{
 			Name: "useany",
 			Doc:  "check for constraints that could be simplified to \"any\"",
-			URL:  "https://pkg.go.dev/cuelang.org/go/internal/golangorgx/gopls/analysis/useany",
+			URL:  "https://pkg.go.dev/github.com/sahroshan/cue/internal/golangorgx/gopls/analysis/useany",
 		},
 	},
 	Hints: []*HintJSON{

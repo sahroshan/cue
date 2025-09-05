@@ -20,7 +20,7 @@ import (
 
 	"github.com/go-quicktest/qt"
 
-	"cuelang.org/go/cue"
+	"github.com/sahroshan/cue/cue"
 )
 
 func TestPointerFromTokens(t *testing.T) {

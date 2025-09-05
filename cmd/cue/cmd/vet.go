@@ -18,8 +18,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/text/message"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/errors"
 )
 
 const vetDoc = `The vet command validates CUE and other data files.

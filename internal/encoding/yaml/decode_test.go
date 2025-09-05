@@ -29,11 +29,11 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/encoding/yaml"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/cuetest"
+	"github.com/sahroshan/cue/internal/encoding/yaml"
 )
 
 var unmarshalTests = []struct {
@@ -114,8 +114,8 @@ var unmarshalTests = []struct {
 		"fixed: 685_230.15",
 		"fixed: 685_230.15",
 	},
-	//{"sexa: 190:20:30.15", map[string]interface{}{"sexa": 0}}, // Unsupported
-	//{"notanum: .NaN", map[string]interface{}{"notanum": math.NaN()}}, // Equality of NaN fails.
+	// {"sexa: 190:20:30.15", map[string]interface{}{"sexa": 0}}, // Unsupported
+	// {"notanum: .NaN", map[string]interface{}{"notanum": math.NaN()}}, // Equality of NaN fails.
 
 	// Bools from spec
 	{
@@ -180,7 +180,7 @@ var unmarshalTests = []struct {
 		"decimal: +685_230",
 	},
 
-	//{"sexa: 190:20:30", map[string]interface{}{"sexa": 0}}, // Unsupported
+	// {"sexa: 190:20:30", map[string]interface{}{"sexa": 0}}, // Unsupported
 
 	// Nulls from spec
 	{

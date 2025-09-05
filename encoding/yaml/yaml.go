@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"io"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	cueyaml "cuelang.org/go/internal/encoding/yaml"
-	"cuelang.org/go/internal/source"
-	"cuelang.org/go/internal/value"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	cueyaml "github.com/sahroshan/cue/internal/encoding/yaml"
+	"github.com/sahroshan/cue/internal/source"
+	"github.com/sahroshan/cue/internal/value"
 )
 
 // Extract parses the YAML specified by src to a CUE expression. If

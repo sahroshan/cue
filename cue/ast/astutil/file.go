@@ -15,8 +15,8 @@
 package astutil
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 // ToFile converts an expression to a File. It will create an import section for

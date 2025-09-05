@@ -13,14 +13,14 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/mod/modpkgload"
-	"cuelang.org/go/internal/mod/modrequirements"
-	"cuelang.org/go/internal/mod/semver"
-	"cuelang.org/go/internal/par"
-	"cuelang.org/go/mod/modfile"
-	"cuelang.org/go/mod/modregistry"
-	"cuelang.org/go/mod/module"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/internal/mod/modpkgload"
+	"github.com/sahroshan/cue/internal/mod/modrequirements"
+	"github.com/sahroshan/cue/internal/mod/semver"
+	"github.com/sahroshan/cue/internal/par"
+	"github.com/sahroshan/cue/mod/modfile"
+	"github.com/sahroshan/cue/mod/modregistry"
+	"github.com/sahroshan/cue/mod/module"
 )
 
 // UpdateVersions returns the main module's module file with the specified module versions

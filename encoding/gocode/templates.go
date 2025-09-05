@@ -28,9 +28,9 @@ package {{.pkgName}}
 import (
 	"fmt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/encoding/gocode/gocodec"
-	_ "cuelang.org/go/pkg"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/encoding/gocode/gocodec"
+	_ "github.com/sahroshan/cue/pkg"
 )
 
 `))

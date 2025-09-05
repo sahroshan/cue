@@ -21,8 +21,8 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/token"
 )
 
 type importReader struct {

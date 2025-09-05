@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// TODO: make this package public in cuelang.org/go/encoding
+// TODO: make this package public in github.com/sahroshan/cue/encoding
 // once stabilized.
 
 package encoding
@@ -22,26 +22,26 @@ import (
 	"io"
 	"maps"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/json"
-	"cuelang.org/go/encoding/jsonschema"
-	"cuelang.org/go/encoding/openapi"
-	"cuelang.org/go/encoding/protobuf"
-	"cuelang.org/go/encoding/protobuf/jsonpb"
-	"cuelang.org/go/encoding/protobuf/textproto"
-	"cuelang.org/go/encoding/toml"
-	"cuelang.org/go/encoding/xml/koala"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/encoding/yaml"
-	"cuelang.org/go/internal/filetypes"
-	"cuelang.org/go/internal/source"
+	"github.com/sahroshan/cue/cue"
+	"github.com/sahroshan/cue/cue/ast"
+	"github.com/sahroshan/cue/cue/build"
+	"github.com/sahroshan/cue/cue/errors"
+	"github.com/sahroshan/cue/cue/format"
+	"github.com/sahroshan/cue/cue/literal"
+	"github.com/sahroshan/cue/cue/parser"
+	"github.com/sahroshan/cue/cue/token"
+	"github.com/sahroshan/cue/encoding/json"
+	"github.com/sahroshan/cue/encoding/jsonschema"
+	"github.com/sahroshan/cue/encoding/openapi"
+	"github.com/sahroshan/cue/encoding/protobuf"
+	"github.com/sahroshan/cue/encoding/protobuf/jsonpb"
+	"github.com/sahroshan/cue/encoding/protobuf/textproto"
+	"github.com/sahroshan/cue/encoding/toml"
+	"github.com/sahroshan/cue/encoding/xml/koala"
+	"github.com/sahroshan/cue/internal"
+	"github.com/sahroshan/cue/internal/encoding/yaml"
+	"github.com/sahroshan/cue/internal/filetypes"
+	"github.com/sahroshan/cue/internal/source"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
 )
